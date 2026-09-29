@@ -1,0 +1,13 @@
+# Q4 2025 platform-asset reconciliation
+
+| Publication | Reporting date | Period measured | Value | Treatment |
+|---|---|---|---:|---|
+| [Preliminary Q4/FY release](https://www.globenewswire.com/news-release/2026/02/10/3235771/0/en/robinhood-reports-fourth-quarter-and-full-year-2025-results.html) | February 10, 2026 | December 31, 2025 | approximately $324b | Retain as superseded reported observation (`platform_assets_earnings_b`) |
+| [January operating release](https://investors.robinhood.com/news-releases/news-release-details/robinhood-markets-inc-reports-january-2026-operating-data) | February 19, 2026 | December 31, 2025 comparison column | $322.1b | Canonical revised quarter-end value (`platform_assets_b`) |
+| [2025 10-K/A](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000029/hood-20251231.htm) | February 2026 filing | December 31, 2025 | $322.1b | Confirms canonical value and revision explanation |
+
+**FACT:** Robinhood explicitly says it revised December 2025 Total Platform Assets after the preliminary earnings release to reflect final crypto pricing data. The two figures refer to the same quarter-end platform-asset metric; this is a revision of a preliminary value, not a new definition. The displayed $1.9b difference compares a whole-billion rounded preliminary figure with a tenth-billion revised figure, so it is not a precise restatement amount. [January release](https://investors.robinhood.com/news-releases/news-release-details/robinhood-markets-inc-reports-january-2026-operating-data); [2025 10-K/A](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000029/hood-20251231.htm).
+
+**Definition:** Total Platform Assets includes customer equities, crypto, options/futures and cash net of customer receivables, plus RIA assets after TradePMR. The 10-K/A lists 2025 components of $212.0b equities, $38.2b crypto, $2.8b options/futures, $42.5b RIA assets, $43.4b cash, and $(16.8)b receivables, summing to $322.1b. The annual roll-forward also ties: $192.9b opening + $51.8b acquired assets + $68.1b net deposits + $9.3b net market gains = $322.1b. [2025 10-K/A](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000029/hood-20251231.htm).
+
+**Treatment and impact:** Use $322.1b for 2025 Q4 assets/customer, asset growth, and any later forecast opening balance. Retain $324b in the registry and processed KPI file as the preliminary earnings observation, tagged superseded. Neither acquisition timing nor a definition change is the company-stated reason for this specific difference. The canonical data row was already $322.1b; the Phase 3 change makes the audit and rerun treatment explicit. [Source registry](../data/source_registry.csv); [data quality report](../DATA_QUALITY_REPORT.md).

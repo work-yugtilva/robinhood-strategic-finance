@@ -23,26 +23,34 @@ def run(refresh=False):
     OUT.mkdir(parents=True,exist_ok=True)
     verify_cache(refresh)
     now=datetime.now().date().isoformat()
+    prior_manifest={}
+    manifest_path=ROOT/'data/source_manifest.csv'
+    if manifest_path.exists():
+        prior_manifest={r['source_id']:r for r in csv.DictReader(manifest_path.open())}
+    def retrieved(source_id, status='cached'):
+        previous=prior_manifest.get(source_id)
+        return previous['retrieved_at'] if status=='cached' and previous and previous.get('retrieved_at') else now
     manifest=[]; registry=[]; failures=[]
     facts_raw,status=fetch(SEC_FACTS,RAW/'sec_companyfacts.json',refresh)
+    sec_status=status
     facts=json.loads(facts_raw)
     manifest.append({'source_id':'sec_companyfacts','source_type':'sec_api','period':'through_2026Q2',
         'canonical_url':SEC_FACTS,'retrieval_url':SEC_FACTS,'accession':'',
         'cache_filename':'sec_companyfacts.json','sha256':hashlib.sha256(facts_raw).hexdigest(),
-        'status':status,'retrieved_at':now,'notes':'Standard taxonomy; amended 2025 FY retained.'})
+        'status':status,'retrieved_at':retrieved('sec_companyfacts',status),'notes':'Standard taxonomy; amended 2025 FY retained.'})
     for period,accn in FILINGS:
         compact=accn.replace('-','')
         canonical=f'https://www.sec.gov/Archives/edgar/data/1783879/{compact}/{accn}-index.htm'
         manifest.append({'source_id':f'sec_{period}','source_type':'sec_filing','period':period,
             'canonical_url':canonical,'retrieval_url':SEC_FACTS,'accession':accn,
             'cache_filename':'sec_companyfacts.json','sha256':hashlib.sha256(facts_raw).hexdigest(),
-            'status':'companyfacts_only','retrieved_at':now,
+            'status':'companyfacts_only','retrieved_at':retrieved(f'sec_{period}'),
             'notes':'Filing HTML blocked (HTTP 403); standard GAAP facts available via SEC API.'})
     original_accn='0001783879-26-000023'
     manifest.append({'source_id':'sec_2025FY_original','source_type':'sec_filing','period':'2025FY',
         'canonical_url':f'https://www.sec.gov/Archives/edgar/data/1783879/{original_accn.replace("-", "")}/{original_accn}-index.htm',
         'retrieval_url':SEC_FACTS,'accession':original_accn,'cache_filename':'sec_companyfacts.json',
-        'sha256':hashlib.sha256(facts_raw).hexdigest(),'status':'companyfacts_only','retrieved_at':now,
+        'sha256':hashlib.sha256(facts_raw).hexdigest(),'status':'companyfacts_only','retrieved_at':retrieved('sec_2025FY_original'),
         'notes':'Original 10-K retained; amended 10-K/A is annual reference.'})
     links=discover(RAW,refresh)
     for path in sorted(RAW.glob('gnw_index_*.html')):
@@ -50,7 +58,7 @@ def run(refresh=False):
         manifest.append({'source_id':f'gnw_index_{page}','source_type':'source_index','period':'through_2026-09-28',
             'canonical_url':ARCHIVE.format(page),'retrieval_url':ARCHIVE.format(page),'accession':'',
             'cache_filename':path.name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
-            'status':'cached','retrieved_at':now,'notes':'GlobeNewswire organization archive discovery page.'})
+            'status':'cached','retrieved_at':retrieved(f'gnw_index_{page}'),'notes':'GlobeNewswire organization archive discovery page.'})
     financial={}; monthly={}; monthly_sources={}
     for url,title in sorted(links.items()):
         kind,period=release_period(title)
@@ -67,7 +75,7 @@ def run(refresh=False):
             manifest.append({'source_id':f'gnw_{period}','source_type':kind+'_release','period':period,
                 'canonical_url':IR_QUARTERS if kind=='quarter' else IR_MONTHS,
                 'retrieval_url':url,'accession':'','cache_filename':name,'sha256':digest,
-                'status':status,'retrieved_at':now,'notes':'Robinhood-authored GlobeNewswire release; IR direct retrieval blocked.'})
+                'status':status,'retrieved_at':retrieved(f'gnw_{period}',status),'notes':'Robinhood-authored GlobeNewswire release; IR direct retrieval blocked.'})
             if kind=='quarter':
                 financial[period]=parse_financial_release(raw,period)
             else:
@@ -148,8 +156,9 @@ def run(refresh=False):
                 if key=='period' or value is None:
                     continue
                 reported_quarter_kpis=('investment_accounts_m','gold_subscribers_m','arpu_usd_annualized','platform_assets_earnings_b')
+                quarter_end_stocks=('funded_customers_m','net_cumulative_funded_accounts_m','platform_assets_b','assets_under_custody_b','margin_book_b','cash_deposits_b','cash_sweep_b')
                 normalized_other_income=(kind=='quarterly_financial' and key=='other_income_m' and row['period'] in ('2023Q1','2023Q2','2023Q3','2023Q4','2024Q1'))
-                derived=(key in ('operating_income_m','adjusted_ebitda_recomputed_m','unclassified_transaction_revenue_m') or normalized_other_income or (kind=='quarterly_kpi' and key not in reported_quarter_kpis))
+                derived=(key in ('operating_income_m','adjusted_ebitda_recomputed_m','unclassified_transaction_revenue_m') or normalized_other_income or (kind=='quarterly_kpi' and key not in reported_quarter_kpis and key not in quarter_end_stocks))
                 url=next((m['retrieval_url'] for m in manifest if m['source_id']==f'gnw_{row["period"]}'), '')
                 if kind=='monthly_kpi':
                     url=monthly_sources.get(row['period'],'')
@@ -160,23 +169,32 @@ def run(refresh=False):
                         y=int(row['period'][:4]); q=int(row['period'][-1])
                         sources=[monthly_sources.get(f'{y}-{m:02d}','') for m in range(3*q-2,3*q+1)]
                         url=monthly_sources.get(f'{y}-{3*q:02d}','') if key in ('funded_customers_m','net_cumulative_funded_accounts_m','platform_assets_b','assets_under_custody_b','margin_book_b','cash_deposits_b','cash_sweep_b') else ' | '.join(sources)
+                source_id=f'gnw_{row["period"]}'
+                source_date=retrieved(source_id)
+                if kind=='monthly_kpi' and source_id not in {m['source_id'] for m in manifest}:
+                    source_date=next((m['retrieved_at'] for m in manifest if m['retrieval_url']==url),source_date)
+                note=('Prior-month comparison in following release. ' if kind=='monthly_kpi' and source_id not in [m['source_id'] for m in manifest] else '')+'Unit and definition in data_dictionary.csv.'
+                if row['period']=='2025Q4' and key=='platform_assets_earnings_b':
+                    note+=' Preliminary $324B from 2026-02-10 earnings release; superseded by revised $322.1B after final crypto pricing.'
+                if row['period']=='2025Q4' and key=='platform_assets_b':
+                    note+=' Canonical revised December 2025 value $322.1B; Robinhood revised preliminary results after final crypto pricing.'
                 registry.append({'variable':key,'value':value,'period':row['period'],
                     'classification':'DERIVED' if derived else 'REPORTED',
                     'source_name':'Robinhood earnings release' if kind=='quarterly_financial' or key in reported_quarter_kpis else 'Robinhood monthly operating release',
-                    'source_url':url,'date_retrieved':now,
-                    'calculation':'revenue less operating expenses' if key=='operating_income_m' else ('negative of reported Other (income) expense, net' if normalized_other_income else ('transaction revenue minus disclosed product components' if key=='unclassified_transaction_revenue_m' else ('sum monthly flows / quarter-end stock' if kind=='quarterly_kpi' and derived else ('EBITDA plus disclosed adjustments' if key=='adjusted_ebitda_recomputed_m' else '')))),
-                    'notes':('Prior-month comparison in following release. ' if kind=='monthly_kpi' and f'gnw_{row["period"]}' not in [m['source_id'] for m in manifest] else '')+'Unit and definition in data_dictionary.csv.'})
+                    'source_url':url,'date_retrieved':source_date,
+                    'calculation':'revenue less operating expenses' if key=='operating_income_m' else ('negative of reported Other (income) expense, net' if normalized_other_income else ('transaction revenue minus disclosed product components' if key=='unclassified_transaction_revenue_m' else ('sum three reported monthly flows' if kind=='quarterly_kpi' and derived else ('last reported month of quarter' if kind=='quarterly_kpi' and key in quarter_end_stocks else ('EBITDA plus disclosed adjustments' if key=='adjusted_ebitda_recomputed_m' else ''))))),
+                    'notes':note})
     for year,key,total,_ in annual_checks:
         registry.append({'variable':key,'value':total,'period':f'{year}FY','classification':'REPORTED',
             'source_name':'SEC company-facts / annual filing','source_url':SEC_FACTS,
-            'date_retrieved':now,'calculation':'','notes':f'Annual SEC fact; accession {dict(FILINGS)[f"{year}FY"]}; USD millions.'})
+            'date_retrieved':retrieved('sec_companyfacts',sec_status),'calculation':'','notes':f'Annual SEC fact; accession {dict(FILINGS)[f"{year}FY"]}; USD millions.'})
     for key,fy,nine,derived,_ in q4_checks:
         registry.append({'variable':key,'value':nine,'period':'2025M9','classification':'REPORTED',
             'source_name':'SEC company-facts / 2025 Q3 10-Q','source_url':SEC_FACTS,
-            'date_retrieved':now,'calculation':'','notes':'Nine months ended 2025-09-30; accession 0001783879-25-000310; USD millions.'})
+            'date_retrieved':retrieved('sec_companyfacts',sec_status),'calculation':'','notes':'Nine months ended 2025-09-30; accession 0001783879-25-000310; USD millions.'})
         registry.append({'variable':f'sec_derived_{key}','value':derived,'period':'2025Q4','classification':'DERIVED',
             'source_name':'SEC amended FY 2025 10-K/A and Q3 10-Q','source_url':SEC_FACTS,
-            'date_retrieved':now,'calculation':f'2025 FY {fy} minus 2025 nine months {nine}',
+            'date_retrieved':retrieved('sec_companyfacts',sec_status),'calculation':f'2025 FY {fy} minus 2025 nine months {nine}',
             'notes':'Independent quarter-only cross-check against Robinhood Q4 release; USD millions.'})
     write_csv(ROOT/'data/source_registry.csv',registry,
               ['variable','value','period','classification','source_name','source_url','date_retrieved','calculation','notes'])
@@ -201,7 +219,7 @@ def make_dictionary(fin_fields,kpi_fields):
         {'metric':'investment_accounts_m','description':'Investment accounts','unit':'millions of accounts','frequency':'quarterly','stock_or_flow':'stock','quarterly_aggregation':'reported quarter-end','definition_changes':'Coverage starts when disclosed in earnings release.'},
         {'metric':'gold_subscribers_m','description':'Robinhood Gold subscribers','unit':'millions of subscribers','frequency':'quarterly','stock_or_flow':'stock','quarterly_aggregation':'reported quarter-end','definition_changes':'Coverage varies by release.'},
         {'metric':'arpu_usd_annualized','description':'Company-reported annualized ARPU','unit':'USD per funded customer annualized','frequency':'quarterly','stock_or_flow':'ratio','quarterly_aggregation':'reported quarter','definition_changes':'Company definition and funded-customer base should be checked across periods.'},
-        {'metric':'platform_assets_earnings_b','description':'Rounded platform assets in earnings release','unit':'USD billions','frequency':'quarterly','stock_or_flow':'stock','quarterly_aggregation':'reported quarter-end','definition_changes':'Compare with precise monthly period-end stock; Q4 2025 publications disagree.'},
+        {'metric':'platform_assets_earnings_b','description':'Rounded preliminary platform assets in earnings release','unit':'USD billions','frequency':'quarterly','stock_or_flow':'stock','quarterly_aggregation':'reported quarter-end','definition_changes':'Q4 2025 preliminary $324B superseded by $322.1B after final crypto pricing; platform_assets_b is canonical.'},
     ]
     write_csv(ROOT/'data/data_dictionary.csv',rows,list(rows[0]))
 
@@ -213,7 +231,7 @@ def make_report(fin,monthly,quarterly,manifest,errors,failures,annual,q4_checks)
     missing_month={key:sum(x.get(key) is None for x in monthly) for key in set().union(*(x.keys() for x in monthly)) if key!='period'}
     missing_quarter={key:sum(x.get(key) is None for x in quarterly) for key in ('investment_accounts_m','gold_subscribers_m','arpu_usd_annualized','platform_assets_earnings_b')}
     asset_mismatches=[(r['period'],r['platform_assets_b'],r['platform_assets_earnings_b']) for r in quarterly if r.get('platform_assets_b') is not None and r.get('platform_assets_earnings_b') is not None and abs(r['platform_assets_b']-r['platform_assets_earnings_b'])>1]
-    lines=['# Data quality report','','**Cutoff:** 2026-09-28. **Status:** '+('VALIDATED FINANCIALS; DOCUMENTED KPI SOURCE EXCEPTION' if not errors else 'NOT VALIDATED'),
+    lines=['# Data quality report','','**Cutoff:** 2026-09-28. **Status:** '+('VALIDATED FINANCIALS; Q4 PLATFORM-ASSET REVISION DOCUMENTED' if not errors else 'NOT VALIDATED'),
         '',f'Financial rows: {len(fin)} (2023 Q1–2026 Q2). Monthly KPI rows: {len(monthly)} (Jan 2023–Aug 2026). Quarterly KPI rows: {len(quarterly)} (through 2026 Q2).',
         '', 'Sources for proof gates: [Robinhood Q2 2026 release](https://www.globenewswire.com/news-release/2026/07/29/3335576/0/en/robinhood-reports-second-quarter-2026-results.html); [SEC company-facts](https://data.sec.gov/api/xbrl/companyfacts/CIK0001783879.json); [2025 amended 10-K/A](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000029/0001783879-26-000029-index.htm); [2025 Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1783879/000178387925000310/0001783879-25-000310-index.html); [Robinhood Q4 2025 release](https://www.globenewswire.com/news-release/2026/02/10/3235771/0/en/robinhood-reports-fourth-quarter-and-full-year-2025-results.html).',
         '', '## Proof gates',
@@ -234,8 +252,10 @@ def make_report(fin,monthly,quarterly,manifest,errors,failures,annual,q4_checks)
         '- SEC filing HTML and Robinhood IR downloads returned HTTP 403 in this environment. SEC company-facts supplies standard tagged GAAP revenue cross-checks; Robinhood-authored GlobeNewswire releases supply statements, non-GAAP reconciliations, and accessible monthly KPI tables. Filing-specific product revenue note details and some operating metrics remain unavailable from this cache.',
         '- Quarter-end months (March, June, September, December) lack standalone releases in this archive, but the following month’s company release reports their values in its prior-month comparison column. Those values are backfilled with that release as provenance. Values absent from both columns remain null.',
         '- Monthly KPI headings and fields change over time; blanks in the processed files are undisclosed or unavailable, never inferred zero.',
+        '- In 2025 Q2–Q3 the monthly crypto volume table split Robinhood App and Bitstamp rows; the total is missing in this monthly parser. Phase 3 separately registers Q2 $28B App + $7B Bitstamp and Q3 $80B total from company quarterly releases. The monthly blanks remain blank; analytical quarterly volume uses the cited quarterly disclosure.',
+        '- Q2 2026 event-contract volume is 13.5B from summing rounded monthly data versus 13.6B reported in the quarterly release. Phase 3 uses 13.6B for quarterly revenue-per-contract analysis and retains the monthly sum in the processed KPI table.',
         '- Adjusted EBITDA is company-reported and separately recomputed from the adjustment rows in all 14 accessible quarterly releases. The reconciliation is non-GAAP and should not be conflated with operating income.',
-        '- Material difference threshold for rounded earnings-release assets versus monthly period-end assets: USD 1 billion. Both values are preserved; the monthly value is the quarter-end aggregation input. Do not treat the pair as a reconciled stock series until the definition/revision difference is resolved.',
+        '- Material difference threshold for rounded earnings-release assets versus monthly period-end assets: USD 1 billion. Both values are preserved; the revised monthly value is the quarter-end aggregation input.',
         '', '### Missing financial fields (quarters of 14)',
     ]
     lines += [f'- {k}: {v}' for k,v in sorted(missing_fin.items())]
@@ -246,9 +266,9 @@ def make_report(fin,monthly,quarterly,manifest,errors,failures,annual,q4_checks)
     lines += ['', '### Material platform-asset source differences']
     lines += [f'- {p}: precise month-end {monthly_value} USD billion; rounded earnings release {earnings_value} USD billion; difference {round(earnings_value-monthly_value,1)} USD billion.' for p,monthly_value,earnings_value in asset_mismatches] if asset_mismatches else ['- None above USD 1 billion.']
     if any(p=='2025Q4' for p,_,_ in asset_mismatches):
-        lines += ['- The 2025 Q4 comparison uses the [Q4 earnings release](https://www.globenewswire.com/news-release/2026/02/10/3235771/0/en/robinhood-reports-fourth-quarter-and-full-year-2025-results.html) and December 2025 value in the [January 2026 operating release](https://www.globenewswire.com/news-release/2026/02/19/3241521/0/en/robinhood-markets-inc-reports-january-2026-operating-data.html). The reason for the difference is not established by this pipeline; later asset monetization analysis must choose and document a consistent series.']
+        lines += ['- Robinhood explicitly revised December 2025 assets after the preliminary 2026-02-10 earnings release to reflect final crypto pricing data. The 2026-02-19 [January operating release](https://investors.robinhood.com/news-releases/news-release-details/robinhood-markets-inc-reports-january-2026-operating-data) and [2025 10-K/A](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000029/hood-20251231.htm) report $322.1B; use it as canonical. Keep preliminary $324B for audit. See [reconciliation](reports/Q4_2025_PLATFORM_ASSET_RECONCILIATION.md).']
     lines += ['', '## Comparability and modeling limits',
-        '- Bitstamp (2025), TradePMR (2026), and WonderFi (2026) change the scope of customers, assets, and/or volume. Historical growth spanning those dates is not a clean organic measure.',
+        '- TradePMR (2025), Bitstamp (2025), and WonderFi (2026) change the scope of customers, assets, and/or volume. Historical growth spanning those dates is not a clean organic measure.',
         '- February 2026 cash-sweep program changes moved balances to free credit; July 2026 Trump Accounts affected platform assets and deposits without an equivalent funded-customer change. Treat both as definition breaks.',
         '- Product-level active users, retention, CAC, and contribution margin are not a consistent public series. Later work may calculate labeled aggregate proxies; none are reported here.',
         '- Historical outputs are source facts and arithmetic only. No 2026 Q3 financial result, forecast, initiative ROI, or strategic recommendation is included.',

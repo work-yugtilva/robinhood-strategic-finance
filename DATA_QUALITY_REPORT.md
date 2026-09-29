@@ -1,6 +1,6 @@
 # Data quality report
 
-**Cutoff:** 2026-09-28. **Status:** VALIDATED FINANCIALS; DOCUMENTED KPI SOURCE EXCEPTION
+**Cutoff:** 2026-09-28. **Status:** VALIDATED FINANCIALS; Q4 PLATFORM-ASSET REVISION DOCUMENTED
 
 Financial rows: 14 (2023 Q1–2026 Q2). Monthly KPI rows: 44 (Jan 2023–Aug 2026). Quarterly KPI rows: 14 (through 2026 Q2).
 
@@ -35,8 +35,10 @@ Sources for proof gates: [Robinhood Q2 2026 release](https://www.globenewswire.c
 - SEC filing HTML and Robinhood IR downloads returned HTTP 403 in this environment. SEC company-facts supplies standard tagged GAAP revenue cross-checks; Robinhood-authored GlobeNewswire releases supply statements, non-GAAP reconciliations, and accessible monthly KPI tables. Filing-specific product revenue note details and some operating metrics remain unavailable from this cache.
 - Quarter-end months (March, June, September, December) lack standalone releases in this archive, but the following month’s company release reports their values in its prior-month comparison column. Those values are backfilled with that release as provenance. Values absent from both columns remain null.
 - Monthly KPI headings and fields change over time; blanks in the processed files are undisclosed or unavailable, never inferred zero.
+- In 2025 Q2–Q3 the monthly crypto volume table split Robinhood App and Bitstamp rows; the total is missing in this monthly parser. Phase 3 separately registers Q2 $28B App + $7B Bitstamp and Q3 $80B total from company quarterly releases. The monthly blanks remain blank; analytical quarterly volume uses the cited quarterly disclosure.
+- Q2 2026 event-contract volume is 13.5B from summing rounded monthly data versus 13.6B reported in the quarterly release. Phase 3 uses 13.6B for quarterly revenue-per-contract analysis and retains the monthly sum in the processed KPI table.
 - Adjusted EBITDA is company-reported and separately recomputed from the adjustment rows in all 14 accessible quarterly releases. The reconciliation is non-GAAP and should not be conflated with operating income.
-- Material difference threshold for rounded earnings-release assets versus monthly period-end assets: USD 1 billion. Both values are preserved; the monthly value is the quarter-end aggregation input. Do not treat the pair as a reconciled stock series until the definition/revision difference is resolved.
+- Material difference threshold for rounded earnings-release assets versus monthly period-end assets: USD 1 billion. Both values are preserved; the revised monthly value is the quarter-end aggregation input.
 
 ### Missing financial fields (quarters of 14)
 - adjusted_ebitda_m: 0
@@ -90,10 +92,10 @@ Sources for proof gates: [Robinhood Q2 2026 release](https://www.globenewswire.c
 
 ### Material platform-asset source differences
 - 2025Q4: precise month-end 322.1 USD billion; rounded earnings release 324.0 USD billion; difference 1.9 USD billion.
-- The 2025 Q4 comparison uses the [Q4 earnings release](https://www.globenewswire.com/news-release/2026/02/10/3235771/0/en/robinhood-reports-fourth-quarter-and-full-year-2025-results.html) and December 2025 value in the [January 2026 operating release](https://www.globenewswire.com/news-release/2026/02/19/3241521/0/en/robinhood-markets-inc-reports-january-2026-operating-data.html). The reason for the difference is not established by this pipeline; later asset monetization analysis must choose and document a consistent series.
+- Robinhood explicitly revised December 2025 assets after the preliminary 2026-02-10 earnings release to reflect final crypto pricing data. The 2026-02-19 [January operating release](https://investors.robinhood.com/news-releases/news-release-details/robinhood-markets-inc-reports-january-2026-operating-data) and [2025 10-K/A](https://www.sec.gov/Archives/edgar/data/1783879/000178387926000029/hood-20251231.htm) report $322.1B; use it as canonical. Keep preliminary $324B for audit. See [reconciliation](reports/Q4_2025_PLATFORM_ASSET_RECONCILIATION.md).
 
 ## Comparability and modeling limits
-- Bitstamp (2025), TradePMR (2026), and WonderFi (2026) change the scope of customers, assets, and/or volume. Historical growth spanning those dates is not a clean organic measure.
+- TradePMR (2025), Bitstamp (2025), and WonderFi (2026) change the scope of customers, assets, and/or volume. Historical growth spanning those dates is not a clean organic measure.
 - February 2026 cash-sweep program changes moved balances to free credit; July 2026 Trump Accounts affected platform assets and deposits without an equivalent funded-customer change. Treat both as definition breaks.
 - Product-level active users, retention, CAC, and contribution margin are not a consistent public series. Later work may calculate labeled aggregate proxies; none are reported here.
 - Historical outputs are source facts and arithmetic only. No 2026 Q3 financial result, forecast, initiative ROI, or strategic recommendation is included.

@@ -1,0 +1,21 @@
+comparison,start_periods,end_periods,product,start_revenue_m,end_revenue_m,change_m,customer_scale_effect_m,activity_effect_m,monetization_effect_m,mix_residual_effect_m,bridge_total_m,coverage_note
+2024 vs 2023,2023Q1+2023Q2+2023Q3+2023Q4,2024Q1+2024Q2+2024Q3+2024Q4,options,505.0,760.0,255.0,21.223,198.247,35.53,,255.0,Aggregate activity per funded customer is not product-user activity
+2024 vs 2023,2023Q1+2023Q2+2023Q3+2023Q4,2024Q1+2024Q2+2024Q3+2024Q4,equities,104.0,177.0,73.0,4.371,78.541,-9.912,,73.0,Aggregate activity per funded customer is not product-user activity
+2024 vs 2023,2023Q1+2023Q2+2023Q3+2023Q4,2024Q1+2024Q2+2024Q3+2024Q4,crypto,135.0,626.0,491.0,5.673,344.038,141.289,,491.0,Aggregate activity per funded customer is not product-user activity
+2024 vs 2023,2023Q1+2023Q2+2023Q3+2023Q4,2024Q1+2024Q2+2024Q3+2024Q4,event_contracts,,,,,,,,,Missing product revenue or volume; all growth in residual
+2024 vs 2023,2023Q1+2023Q2+2023Q3+2023Q4,2024Q1+2024Q2+2024Q3+2024Q4,TOTAL_TRANSACTION,785.0,1647.0,862.0,31.267,620.826,166.907,43.0,862.0,"Residual includes new products, acquisition scope, unclassified transaction revenue and missing product units; not pure product mix"
+2025 vs 2024,2024Q1+2024Q2+2024Q3+2024Q4,2025Q1+2025Q2+2025Q3+2025Q4,options,760.0,1123.0,363.0,66.805,223.216,72.979,,363.0,Aggregate activity per funded customer is not product-user activity
+2025 vs 2024,2024Q1+2024Q2+2024Q3+2024Q4,2025Q1+2025Q2+2025Q3+2025Q4,equities,177.0,302.0,125.0,15.558,151.238,-41.796,,125.0,Aggregate activity per funded customer is not product-user activity
+2025 vs 2024,2024Q1+2024Q2+2024Q3+2024Q4,2025Q1+2025Q2+2025Q3+2025Q4,crypto,626.0,901.0,275.0,,,,,,Blended crypto volume scope changed; all growth in residual
+2025 vs 2024,2024Q1+2024Q2+2024Q3+2024Q4,2025Q1+2025Q2+2025Q3+2025Q4,event_contracts,,,,,,,,,Missing product revenue or volume; all growth in residual
+2025 vs 2024,2024Q1+2024Q2+2024Q3+2024Q4,2025Q1+2025Q2+2025Q3+2025Q4,TOTAL_TRANSACTION,1647.0,2628.0,981.0,82.363,374.454,31.183,493.0,981.0,"Residual includes new products, acquisition scope, unclassified transaction revenue and missing product units; not pure product mix"
+2026 H1 vs 2025 H1,2025Q1+2025Q2,2026Q1+2026Q2,options,505.0,602.0,97.0,33.732,137.635,-74.367,,96.99999999999999,Aggregate activity per funded customer is not product-user activity
+2026 H1 vs 2025 H1,2025Q1+2025Q2,2026Q1+2026Q2,equities,122.0,211.0,89.0,8.149,78.769,2.082,,89.0,Aggregate activity per funded customer is not product-user activity
+2026 H1 vs 2025 H1,2025Q1+2025Q2,2026Q1+2026Q2,crypto,412.0,234.0,-178.0,,,,,,Blended crypto volume scope changed; all growth in residual
+2026 H1 vs 2025 H1,2025Q1+2025Q2,2026Q1+2026Q2,event_contracts,13.0,260.0,247.0,,,,,,Missing product revenue or volume; all growth in residual
+2026 H1 vs 2025 H1,2025Q1+2025Q2,2026Q1+2026Q2,TOTAL_TRANSACTION,1122.0,1399.0,277.0,41.881,216.404,-72.285,91.0,277.0,"Residual includes new products, acquisition scope, unclassified transaction revenue and missing product units; not pure product mix"
+2026 Q2 vs 2025 Q2,2025Q2,2026Q2,options,265.0,342.0,77.0,17.734,115.177,-55.911,,77.0,Aggregate activity per funded customer is not product-user activity
+2026 Q2 vs 2025 Q2,2025Q2,2026Q2,equities,66.0,129.0,63.0,4.417,51.506,7.077,,63.0,Aggregate activity per funded customer is not product-user activity
+2026 Q2 vs 2025 Q2,2025Q2,2026Q2,crypto,160.0,100.0,-60.0,,,,,,Blended crypto volume scope changed; all growth in residual
+2026 Q2 vs 2025 Q2,2025Q2,2026Q2,event_contracts,10.0,156.0,146.0,,,,,,Missing product revenue or volume; all growth in residual
+2026 Q2 vs 2025 Q2,2025Q2,2026Q2,TOTAL_TRANSACTION,539.0,776.0,237.0,22.151,166.683,-48.834,97.0,237.0,"Residual includes new products, acquisition scope, unclassified transaction revenue and missing product units; not pure product mix"
