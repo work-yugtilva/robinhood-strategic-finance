@@ -1,0 +1,45 @@
+metric,description,unit,frequency,stock_or_flow,quarterly_aggregation,definition_changes
+transaction_revenue_m,transaction revenue m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+net_interest_revenue_m,net interest revenue m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+other_revenue_m,other revenue m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+revenue_m,revenue m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+brokerage_transaction_expense_m,brokerage transaction expense m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+technology_development_expense_m,technology development expense m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+operations_expense_m,operations expense m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+credit_loss_expense_m,credit loss expense m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+marketing_expense_m,marketing expense m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+general_administrative_expense_m,general administrative expense m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+operating_expense_m,operating expense m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+other_income_m,other income m,USD millions,quarterly,flow,not applicable; reported quarter,Earlier Other (income) expense presentation sign-normalized to positive other income.
+pretax_income_m,pretax income m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+income_tax_expense_m,income tax expense m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+net_income_m,net income m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+options_revenue_m,options revenue m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+crypto_revenue_m,crypto revenue m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+equities_revenue_m,equities revenue m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+event_contracts_revenue_m,event contracts revenue m,millions of accounts/customers/contracts,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+other_transaction_revenue_m,other transaction revenue m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+unclassified_transaction_revenue_m,unclassified transaction revenue m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+operating_income_m,operating income m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+adjusted_ebitda_m,adjusted ebitda m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+adjusted_ebitda_recomputed_m,adjusted ebitda recomputed m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+ebitda_non_gaap_m,ebitda non gaap m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+sbc_adjustment_m,sbc adjustment m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+interest_expense_adjustment_m,interest expense adjustment m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+depreciation_amortization_adjustment_m,depreciation amortization adjustment m,USD millions,quarterly,flow,not applicable; reported quarter,Revenue taxonomy evolves; event contracts reported separately in later periods.
+funded_customers_m,funded customers m,millions of accounts/customers/contracts,monthly and quarterly,stock,last month,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+net_cumulative_funded_accounts_m,net cumulative funded accounts m,millions of accounts/customers/contracts,monthly and quarterly,stock,last month,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+platform_assets_b,platform assets b,USD billions,monthly and quarterly,stock,last month,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+assets_under_custody_b,assets under custody b,USD billions,monthly and quarterly,stock,last month,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+net_deposits_b,net deposits b,USD billions,monthly and quarterly,flow,sum complete three months,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+equity_notional_b,equity notional b,USD billions,monthly and quarterly,flow,sum complete three months,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+options_contracts_m,options contracts m,millions of accounts/customers/contracts,monthly and quarterly,flow,sum complete three months,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+crypto_notional_b,crypto notional b,USD billions,monthly and quarterly,flow,sum complete three months,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+event_contracts_b,event contracts b,billions of contracts,monthly and quarterly,flow,sum complete three months,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+margin_book_b,margin book b,USD billions,monthly and quarterly,stock,last month,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+cash_deposits_b,cash deposits b,USD billions,monthly and quarterly,stock,last month,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+cash_sweep_b,cash sweep b,USD billions,monthly and quarterly,stock,last month,Bitstamp/TradePMR/WonderFi acquisitions; cash sweep Feb 2026; Trump Accounts Jul 2026
+investment_accounts_m,Investment accounts,millions of accounts,quarterly,stock,reported quarter-end,Coverage starts when disclosed in earnings release.
+gold_subscribers_m,Robinhood Gold subscribers,millions of subscribers,quarterly,stock,reported quarter-end,Coverage varies by release.
+arpu_usd_annualized,Company-reported annualized ARPU,USD per funded customer annualized,quarterly,ratio,reported quarter,Company definition and funded-customer base should be checked across periods.
+platform_assets_earnings_b,Rounded platform assets in earnings release,USD billions,quarterly,stock,reported quarter-end,Compare with precise monthly period-end stock; Q4 2025 publications disagree.
