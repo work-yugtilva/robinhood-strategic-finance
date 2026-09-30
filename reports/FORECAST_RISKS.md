@@ -5,7 +5,7 @@
 | Product active-user counts unavailable | Per-funded-customer trading intensity | Scale attribution can overstate user breadth | Label aggregate proxy and vary activity independently of customer adds |
 | Bitstamp/WonderFi integration and undisclosed channel revenue | Crypto take rate and volume | Blended bps may misstate either channel | Post-acquisition calibration and wide volume/monetization shocks |
 | Short event-contract revenue/unit history | Event revenue | Mature run-rate extrapolation can overstate durability | Hold per-customer activity near partial-quarter pace; scenario grid and explicit flag |
-| Cash-sweep reclassification | Cash and sweep interest | Historical yield and balance shares may not persist | Separate balances/yields; August split and pass-through sensitivities |
+| Cash-sweep reclassification | Cash and sweep interest | Historical yield and balance shares may not persist | Separate balances/yields; August split; zero modeled policy-rate pass-through for Cash Sweep |
 | Policy-to-company yield pass-through unobservable | Net interest revenue | Rate shocks may overstate or understate realized yield change | Disclose component pass-through and stress realized yields directly |
 | Securities lending/financing remainder | Net interest revenue | Flat remainder misses activity or borrowing costs | Separate $2m Base remainder and downside stress |
 | Credit exposure and provision proxy | Credit-loss expense | Provision may not scale with balances as assumed | Explicit exposure/provision inputs and downside provision rate |

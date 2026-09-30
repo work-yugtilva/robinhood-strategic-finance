@@ -16,7 +16,7 @@ Sensitivities rerun the Base operating model one input at a time or on compact 3
 
 The options grid crosses aggregate contracts/customer with dollars/contract. The crypto grid crosses App-plus-Bitstamp volume/customer with one blended realized bps assumption. The net-interest grid crosses modeled earning balances with company-specific realized yields. The profitability grid crosses trading activity with the explicit technology, marketing and G&A spend bases. A grid's revenue change is an engine result, never a total-revenue growth input.
 
-The `realized_yields` shock moves all four company yields directly; `policy_rate_with_pass_through` moves the external rate and applies each disclosed analyst pass-through assumption. These are distinct questions. The negative direct-yield stress is asymmetric at -100 bp because component yields are floored at zero, especially the low-yield cash-sweep component. Neither stress is a probability estimate.
+The `realized_yields` shock moves all four company yields directly; `policy_rate_with_pass_through` moves the external rate using explicit **analyst-assumed** pass-through, with zero for Cash Sweep and credit card. These are distinct questions. The negative direct-yield stress is asymmetric at -100 bp because component yields are floored at zero, especially the low-yield cash-sweep component. Neither stress is a probability estimate. The [interest audit](INTEREST_SENSITIVITY_AUDIT.md) compares scope with Robinhood's disclosure.
 
 | Qualitative impact | Drivers under the defined 2027 shocks | Reading |
 |---|---|---|

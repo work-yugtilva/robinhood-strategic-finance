@@ -1,2 +1,4 @@
 lxml>=5.0,<7
 matplotlib>=3.9,<4
+python-pptx>=1.0,<2
+PyMuPDF>=1.24,<2

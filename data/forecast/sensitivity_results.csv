@@ -1,385 +1,385 @@
 kind,driver,shock,axis_x,axis_y,metric,value_m,base_value_m,delta_m
-ONE_WAY,options_activity,-20%,,,2027_revenue_m,5632.76554225,5907.14143814,-274.37589588
-ONE_WAY,options_activity,-20%,,,2027_operating_income_m,2329.19878607,2593.66281965,-264.46403358
-ONE_WAY,options_activity,-20%,,,2027_adjusted_ebitda_m,2802.19878607,3066.66281965,-264.46403358
-ONE_WAY,options_activity,-20%,,,2029Q2_annualized_revenue_m,6435.75967891,6730.99185066,-295.23217175
-ONE_WAY,options_activity,-10%,,,2027_revenue_m,5769.95349019,5907.14143814,-137.18794794
-ONE_WAY,options_activity,-10%,,,2027_operating_income_m,2461.43080286,2593.66281965,-132.23201679
-ONE_WAY,options_activity,-10%,,,2027_adjusted_ebitda_m,2934.43080286,3066.66281965,-132.23201679
-ONE_WAY,options_activity,-10%,,,2029Q2_annualized_revenue_m,6583.37576479,6730.99185066,-147.61608588
-ONE_WAY,options_activity,Base,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,options_activity,Base,,,2027_operating_income_m,2593.66281965,2593.66281965,0
-ONE_WAY,options_activity,Base,,,2027_adjusted_ebitda_m,3066.66281965,3066.66281965,0
-ONE_WAY,options_activity,Base,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,options_activity,+10%,,,2027_revenue_m,6044.32938608,5907.14143814,137.18794794
-ONE_WAY,options_activity,+10%,,,2027_operating_income_m,2725.89483644,2593.66281965,132.23201679
-ONE_WAY,options_activity,+10%,,,2027_adjusted_ebitda_m,3198.89483644,3066.66281965,132.23201679
-ONE_WAY,options_activity,+10%,,,2029Q2_annualized_revenue_m,6878.60793654,6730.99185066,147.61608588
-ONE_WAY,options_activity,+20%,,,2027_revenue_m,6181.51733402,5907.14143814,274.37589588
-ONE_WAY,options_activity,+20%,,,2027_operating_income_m,2858.12685323,2593.66281965,264.46403358
-ONE_WAY,options_activity,+20%,,,2027_adjusted_ebitda_m,3331.12685323,3066.66281965,264.46403358
-ONE_WAY,options_activity,+20%,,,2029Q2_annualized_revenue_m,7026.22402242,6730.99185066,295.23217175
-ONE_WAY,crypto_activity,-20%,,,2027_revenue_m,5819.68257666,5907.14143814,-87.45886147
-ONE_WAY,crypto_activity,-20%,,,2027_operating_income_m,2511.62640759,2593.66281965,-82.03641206
-ONE_WAY,crypto_activity,-20%,,,2027_adjusted_ebitda_m,2984.62640759,3066.66281965,-82.03641206
-ONE_WAY,crypto_activity,-20%,,,2029Q2_annualized_revenue_m,6636.88493384,6730.99185066,-94.10691682
-ONE_WAY,crypto_activity,-10%,,,2027_revenue_m,5863.4120074,5907.14143814,-43.72943074
-ONE_WAY,crypto_activity,-10%,,,2027_operating_income_m,2552.64461362,2593.66281965,-41.01820603
-ONE_WAY,crypto_activity,-10%,,,2027_adjusted_ebitda_m,3025.64461362,3066.66281965,-41.01820603
-ONE_WAY,crypto_activity,-10%,,,2029Q2_annualized_revenue_m,6683.93839225,6730.99185066,-47.05345841
-ONE_WAY,crypto_activity,Base,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,crypto_activity,Base,,,2027_operating_income_m,2593.66281965,2593.66281965,0
-ONE_WAY,crypto_activity,Base,,,2027_adjusted_ebitda_m,3066.66281965,3066.66281965,0
-ONE_WAY,crypto_activity,Base,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,crypto_activity,+10%,,,2027_revenue_m,5950.87086887,5907.14143814,43.72943074
-ONE_WAY,crypto_activity,+10%,,,2027_operating_income_m,2634.68102568,2593.66281965,41.01820603
-ONE_WAY,crypto_activity,+10%,,,2027_adjusted_ebitda_m,3107.68102568,3066.66281965,41.01820603
-ONE_WAY,crypto_activity,+10%,,,2029Q2_annualized_revenue_m,6778.04530907,6730.99185066,47.05345841
-ONE_WAY,crypto_activity,+20%,,,2027_revenue_m,5994.60029961,5907.14143814,87.45886147
-ONE_WAY,crypto_activity,+20%,,,2027_operating_income_m,2675.69923171,2593.66281965,82.03641206
-ONE_WAY,crypto_activity,+20%,,,2027_adjusted_ebitda_m,3148.69923171,3066.66281965,82.03641206
-ONE_WAY,crypto_activity,+20%,,,2029Q2_annualized_revenue_m,6825.09876748,6730.99185066,94.10691682
-ONE_WAY,equity_activity,-20%,,,2027_revenue_m,5812.08137837,5907.14143814,-95.06005976
-ONE_WAY,equity_activity,-20%,,,2027_operating_income_m,2504.42627992,2593.66281965,-89.23653973
-ONE_WAY,equity_activity,-20%,,,2027_adjusted_ebitda_m,2977.42627992,3066.66281965,-89.23653973
-ONE_WAY,equity_activity,-20%,,,2029Q2_annualized_revenue_m,6628.70594176,6730.99185066,-102.2859089
-ONE_WAY,equity_activity,-10%,,,2027_revenue_m,5859.61140825,5907.14143814,-47.53002988
-ONE_WAY,equity_activity,-10%,,,2027_operating_income_m,2549.04454978,2593.66281965,-44.61826987
-ONE_WAY,equity_activity,-10%,,,2027_adjusted_ebitda_m,3022.04454978,3066.66281965,-44.61826987
-ONE_WAY,equity_activity,-10%,,,2029Q2_annualized_revenue_m,6679.84889621,6730.99185066,-51.14295445
-ONE_WAY,equity_activity,Base,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,equity_activity,Base,,,2027_operating_income_m,2593.66281965,2593.66281965,0
-ONE_WAY,equity_activity,Base,,,2027_adjusted_ebitda_m,3066.66281965,3066.66281965,0
-ONE_WAY,equity_activity,Base,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,equity_activity,+10%,,,2027_revenue_m,5954.67146802,5907.14143814,47.53002988
-ONE_WAY,equity_activity,+10%,,,2027_operating_income_m,2638.28108951,2593.66281965,44.61826987
-ONE_WAY,equity_activity,+10%,,,2027_adjusted_ebitda_m,3111.28108951,3066.66281965,44.61826987
-ONE_WAY,equity_activity,+10%,,,2029Q2_annualized_revenue_m,6782.13480511,6730.99185066,51.14295445
-ONE_WAY,equity_activity,+20%,,,2027_revenue_m,6002.2014979,5907.14143814,95.06005976
-ONE_WAY,equity_activity,+20%,,,2027_operating_income_m,2682.89935938,2593.66281965,89.23653973
-ONE_WAY,equity_activity,+20%,,,2027_adjusted_ebitda_m,3155.89935938,3066.66281965,89.23653973
-ONE_WAY,equity_activity,+20%,,,2029Q2_annualized_revenue_m,6833.27775956,6730.99185066,102.2859089
-ONE_WAY,event_activity,-20%,,,2027_revenue_m,5750.68005788,5907.14143814,-156.46138026
-ONE_WAY,event_activity,-20%,,,2027_operating_income_m,2441.79558382,2593.66281965,-151.86723583
-ONE_WAY,event_activity,-20%,,,2027_adjusted_ebitda_m,2914.79558382,3066.66281965,-151.86723583
-ONE_WAY,event_activity,-20%,,,2029Q2_annualized_revenue_m,6562.63729116,6730.99185066,-168.3545595
-ONE_WAY,event_activity,-10%,,,2027_revenue_m,5828.91074801,5907.14143814,-78.23069013
-ONE_WAY,event_activity,-10%,,,2027_operating_income_m,2517.72920173,2593.66281965,-75.93361791
-ONE_WAY,event_activity,-10%,,,2027_adjusted_ebitda_m,2990.72920173,3066.66281965,-75.93361791
-ONE_WAY,event_activity,-10%,,,2029Q2_annualized_revenue_m,6646.81457091,6730.99185066,-84.17727975
-ONE_WAY,event_activity,Base,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,event_activity,Base,,,2027_operating_income_m,2593.66281965,2593.66281965,0
-ONE_WAY,event_activity,Base,,,2027_adjusted_ebitda_m,3066.66281965,3066.66281965,0
-ONE_WAY,event_activity,Base,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,event_activity,+10%,,,2027_revenue_m,5985.37212827,5907.14143814,78.23069013
-ONE_WAY,event_activity,+10%,,,2027_operating_income_m,2669.59643756,2593.66281965,75.93361791
-ONE_WAY,event_activity,+10%,,,2027_adjusted_ebitda_m,3142.59643756,3066.66281965,75.93361791
-ONE_WAY,event_activity,+10%,,,2029Q2_annualized_revenue_m,6815.16913041,6730.99185066,84.17727975
-ONE_WAY,event_activity,+20%,,,2027_revenue_m,6063.6028184,5907.14143814,156.46138026
-ONE_WAY,event_activity,+20%,,,2027_operating_income_m,2745.53005548,2593.66281965,151.86723583
-ONE_WAY,event_activity,+20%,,,2027_adjusted_ebitda_m,3218.53005548,3066.66281965,151.86723583
-ONE_WAY,event_activity,+20%,,,2029Q2_annualized_revenue_m,6899.34641017,6730.99185066,168.3545595
-ONE_WAY,transaction_monetization,-20%,,,2027_revenue_m,5293.78524076,5907.14143814,-613.35619738
-ONE_WAY,transaction_monetization,-20%,,,2027_operating_income_m,1980.30662227,2593.66281965,-613.35619738
-ONE_WAY,transaction_monetization,-20%,,,2027_adjusted_ebitda_m,2453.30662227,3066.66281965,-613.35619738
-ONE_WAY,transaction_monetization,-20%,,,2029Q2_annualized_revenue_m,6071.01229369,6730.99185066,-659.97955698
-ONE_WAY,transaction_monetization,-10%,,,2027_revenue_m,5600.46333945,5907.14143814,-306.67809869
-ONE_WAY,transaction_monetization,-10%,,,2027_operating_income_m,2286.98472096,2593.66281965,-306.67809869
-ONE_WAY,transaction_monetization,-10%,,,2027_adjusted_ebitda_m,2759.98472096,3066.66281965,-306.67809869
-ONE_WAY,transaction_monetization,-10%,,,2029Q2_annualized_revenue_m,6401.00207217,6730.99185066,-329.98977849
-ONE_WAY,transaction_monetization,Base,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,transaction_monetization,Base,,,2027_operating_income_m,2593.66281965,2593.66281965,0
-ONE_WAY,transaction_monetization,Base,,,2027_adjusted_ebitda_m,3066.66281965,3066.66281965,0
-ONE_WAY,transaction_monetization,Base,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,transaction_monetization,+10%,,,2027_revenue_m,6213.81953683,5907.14143814,306.67809869
-ONE_WAY,transaction_monetization,+10%,,,2027_operating_income_m,2900.34091834,2593.66281965,306.67809869
-ONE_WAY,transaction_monetization,+10%,,,2027_adjusted_ebitda_m,3373.34091834,3066.66281965,306.67809869
-ONE_WAY,transaction_monetization,+10%,,,2029Q2_annualized_revenue_m,7060.98162915,6730.99185066,329.98977849
-ONE_WAY,transaction_monetization,+20%,,,2027_revenue_m,6520.49763551,5907.14143814,613.35619738
-ONE_WAY,transaction_monetization,+20%,,,2027_operating_income_m,3207.01901703,2593.66281965,613.35619738
-ONE_WAY,transaction_monetization,+20%,,,2027_adjusted_ebitda_m,3680.01901703,3066.66281965,613.35619738
-ONE_WAY,transaction_monetization,+20%,,,2029Q2_annualized_revenue_m,7390.97140764,6730.99185066,659.97955698
-ONE_WAY,customer_additions,-25%,,,2027_revenue_m,5870.55148676,5907.14143814,-36.58995137
-ONE_WAY,customer_additions,-25%,,,2027_operating_income_m,2584.96459262,2593.66281965,-8.69822703
-ONE_WAY,customer_additions,-25%,,,2027_adjusted_ebitda_m,3057.96459262,3066.66281965,-8.69822703
-ONE_WAY,customer_additions,-25%,,,2029Q2_annualized_revenue_m,6614.96242596,6730.99185066,-116.0294247
-ONE_WAY,customer_additions,+25%,,,2027_revenue_m,5943.73138951,5907.14143814,36.58995137
-ONE_WAY,customer_additions,+25%,,,2027_operating_income_m,2602.36104667,2593.66281965,8.69822703
-ONE_WAY,customer_additions,+25%,,,2027_adjusted_ebitda_m,3075.36104667,3066.66281965,8.69822703
-ONE_WAY,customer_additions,+25%,,,2029Q2_annualized_revenue_m,6847.02127537,6730.99185066,116.0294247
-ONE_WAY,net_deposits,-25%,,,2027_revenue_m,5862.37283873,5907.14143814,-44.76859941
-ONE_WAY,net_deposits,-25%,,,2027_operating_income_m,2548.89422024,2593.66281965,-44.76859941
-ONE_WAY,net_deposits,-25%,,,2027_adjusted_ebitda_m,3021.89422024,3066.66281965,-44.76859941
-ONE_WAY,net_deposits,-25%,,,2029Q2_annualized_revenue_m,6603.45168448,6730.99185066,-127.54016619
-ONE_WAY,net_deposits,+25%,,,2027_revenue_m,5951.91003755,5907.14143814,44.76859941
-ONE_WAY,net_deposits,+25%,,,2027_operating_income_m,2638.43141906,2593.66281965,44.76859941
-ONE_WAY,net_deposits,+25%,,,2027_adjusted_ebitda_m,3111.43141906,3066.66281965,44.76859941
-ONE_WAY,net_deposits,+25%,,,2029Q2_annualized_revenue_m,6858.53201685,6730.99185066,127.54016619
-ONE_WAY,realized_yields,-100bp,,,2027_revenue_m,5133.66434667,5907.14143814,-773.47709146
-ONE_WAY,realized_yields,-100bp,,,2027_operating_income_m,1820.18572819,2593.66281965,-773.47709146
-ONE_WAY,realized_yields,-100bp,,,2027_adjusted_ebitda_m,2293.18572819,3066.66281965,-773.47709146
-ONE_WAY,realized_yields,-100bp,,,2029Q2_annualized_revenue_m,5759.45488408,6730.99185066,-971.53696659
-ONE_WAY,realized_yields,-50bp,,,2027_revenue_m,5457.70758872,5907.14143814,-449.43384941
-ONE_WAY,realized_yields,-50bp,,,2027_operating_income_m,2144.22897023,2593.66281965,-449.43384941
-ONE_WAY,realized_yields,-50bp,,,2027_adjusted_ebitda_m,2617.22897023,3066.66281965,-449.43384941
-ONE_WAY,realized_yields,-50bp,,,2029Q2_annualized_revenue_m,6098.87848411,6730.99185066,-632.11336656
-ONE_WAY,realized_yields,+50bp,,,2027_revenue_m,6356.57528755,5907.14143814,449.43384941
-ONE_WAY,realized_yields,+50bp,,,2027_operating_income_m,3043.09666906,2593.66281965,449.43384941
-ONE_WAY,realized_yields,+50bp,,,2027_adjusted_ebitda_m,3516.09666906,3066.66281965,449.43384941
-ONE_WAY,realized_yields,+50bp,,,2029Q2_annualized_revenue_m,7363.10521722,6730.99185066,632.11336656
-ONE_WAY,realized_yields,+100bp,,,2027_revenue_m,6806.00913696,5907.14143814,898.86769883
-ONE_WAY,realized_yields,+100bp,,,2027_operating_income_m,3492.53051847,2593.66281965,898.86769883
-ONE_WAY,realized_yields,+100bp,,,2027_adjusted_ebitda_m,3965.53051847,3066.66281965,898.86769883
-ONE_WAY,realized_yields,+100bp,,,2029Q2_annualized_revenue_m,7995.21858378,6730.99185066,1264.22673311
-ONE_WAY,policy_rate_with_pass_through,-100bp,,,2027_revenue_m,5522.176578,5907.14143814,-384.96486014
-ONE_WAY,policy_rate_with_pass_through,-100bp,,,2027_operating_income_m,2208.69795951,2593.66281965,-384.96486014
-ONE_WAY,policy_rate_with_pass_through,-100bp,,,2027_adjusted_ebitda_m,2681.69795951,3066.66281965,-384.96486014
-ONE_WAY,policy_rate_with_pass_through,-100bp,,,2029Q2_annualized_revenue_m,6232.08730521,6730.99185066,-498.90454545
-ONE_WAY,policy_rate_with_pass_through,-50bp,,,2027_revenue_m,5714.65900807,5907.14143814,-192.48243007
-ONE_WAY,policy_rate_with_pass_through,-50bp,,,2027_operating_income_m,2401.18038958,2593.66281965,-192.48243007
-ONE_WAY,policy_rate_with_pass_through,-50bp,,,2027_adjusted_ebitda_m,2874.18038958,3066.66281965,-192.48243007
-ONE_WAY,policy_rate_with_pass_through,-50bp,,,2029Q2_annualized_revenue_m,6481.53957794,6730.99185066,-249.45227273
-ONE_WAY,policy_rate_with_pass_through,+50bp,,,2027_revenue_m,6099.62386821,5907.14143814,192.48243007
-ONE_WAY,policy_rate_with_pass_through,+50bp,,,2027_operating_income_m,2786.14524972,2593.66281965,192.48243007
-ONE_WAY,policy_rate_with_pass_through,+50bp,,,2027_adjusted_ebitda_m,3259.14524972,3066.66281965,192.48243007
-ONE_WAY,policy_rate_with_pass_through,+50bp,,,2029Q2_annualized_revenue_m,6980.44412339,6730.99185066,249.45227273
-ONE_WAY,policy_rate_with_pass_through,+100bp,,,2027_revenue_m,6292.10629828,5907.14143814,384.96486014
-ONE_WAY,policy_rate_with_pass_through,+100bp,,,2027_operating_income_m,2978.62767979,2593.66281965,384.96486014
-ONE_WAY,policy_rate_with_pass_through,+100bp,,,2027_adjusted_ebitda_m,3451.62767979,3066.66281965,384.96486014
-ONE_WAY,policy_rate_with_pass_through,+100bp,,,2029Q2_annualized_revenue_m,7229.89639612,6730.99185066,498.90454545
-ONE_WAY,cash_capture,-50%,,,2027_revenue_m,5817.60423931,5907.14143814,-89.53719882
-ONE_WAY,cash_capture,-50%,,,2027_operating_income_m,2504.12562083,2593.66281965,-89.53719882
-ONE_WAY,cash_capture,-50%,,,2027_adjusted_ebitda_m,2977.12562083,3066.66281965,-89.53719882
-ONE_WAY,cash_capture,-50%,,,2029Q2_annualized_revenue_m,6475.91151829,6730.99185066,-255.08033237
-ONE_WAY,cash_capture,+50%,,,2027_revenue_m,5996.67863696,5907.14143814,89.53719882
-ONE_WAY,cash_capture,+50%,,,2027_operating_income_m,2683.20001847,2593.66281965,89.53719882
-ONE_WAY,cash_capture,+50%,,,2027_adjusted_ebitda_m,3156.20001847,3066.66281965,89.53719882
-ONE_WAY,cash_capture,+50%,,,2029Q2_annualized_revenue_m,6986.07218304,6730.99185066,255.08033237
-ONE_WAY,margin_balance_intensity,-20%,,,2027_revenue_m,5692.8741868,5907.14143814,-214.26725134
-ONE_WAY,margin_balance_intensity,-20%,,,2027_operating_income_m,2379.39556831,2593.66281965,-214.26725134
-ONE_WAY,margin_balance_intensity,-20%,,,2027_adjusted_ebitda_m,2852.39556831,3066.66281965,-214.26725134
-ONE_WAY,margin_balance_intensity,-20%,,,2029Q2_annualized_revenue_m,6523.81606954,6730.99185066,-207.17578113
-ONE_WAY,margin_balance_intensity,+20%,,,2027_revenue_m,6121.40868948,5907.14143814,214.26725134
-ONE_WAY,margin_balance_intensity,+20%,,,2027_operating_income_m,2807.93007099,2593.66281965,214.26725134
-ONE_WAY,margin_balance_intensity,+20%,,,2027_adjusted_ebitda_m,3280.93007099,3066.66281965,214.26725134
-ONE_WAY,margin_balance_intensity,+20%,,,2029Q2_annualized_revenue_m,6938.16763179,6730.99185066,207.17578113
-ONE_WAY,credit_balance_growth,-25%,,,2027_revenue_m,5871.73222526,5907.14143814,-35.40921287
-ONE_WAY,credit_balance_growth,-25%,,,2027_operating_income_m,2602.96880341,2593.66281965,9.30598376
-ONE_WAY,credit_balance_growth,-25%,,,2027_adjusted_ebitda_m,3075.96880341,3066.66281965,9.30598376
-ONE_WAY,credit_balance_growth,-25%,,,2029Q2_annualized_revenue_m,6620.65099212,6730.99185066,-110.34085854
-ONE_WAY,credit_balance_growth,+25%,,,2027_revenue_m,5946.66542429,5907.14143814,39.52398615
-ONE_WAY,credit_balance_growth,+25%,,,2027_operating_income_m,2583.27542204,2593.66281965,-10.38739761
-ONE_WAY,credit_balance_growth,+25%,,,2027_adjusted_ebitda_m,3056.27542204,3066.66281965,-10.38739761
-ONE_WAY,credit_balance_growth,+25%,,,2029Q2_annualized_revenue_m,6870.68645415,6730.99185066,139.69460349
-ONE_WAY,credit_provision,-20%,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,credit_provision,-20%,,,2027_operating_income_m,2664.46346857,2593.66281965,70.80064893
-ONE_WAY,credit_provision,-20%,,,2027_adjusted_ebitda_m,3137.46346857,3066.66281965,70.80064893
-ONE_WAY,credit_provision,-20%,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,credit_provision,+20%,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,credit_provision,+20%,,,2027_operating_income_m,2522.86217072,2593.66281965,-70.80064893
-ONE_WAY,credit_provision,+20%,,,2027_adjusted_ebitda_m,2995.86217072,3066.66281965,-70.80064893
-ONE_WAY,credit_provision,+20%,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,marketing,-10%,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,marketing,-10%,,,2027_operating_income_m,2645.26281965,2593.66281965,51.6
-ONE_WAY,marketing,-10%,,,2027_adjusted_ebitda_m,3118.26281965,3066.66281965,51.6
-ONE_WAY,marketing,-10%,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,marketing,+10%,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,marketing,+10%,,,2027_operating_income_m,2542.06281965,2593.66281965,-51.6
-ONE_WAY,marketing,+10%,,,2027_adjusted_ebitda_m,3015.06281965,3066.66281965,-51.6
-ONE_WAY,marketing,+10%,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,technology,-10%,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,technology,-10%,,,2027_operating_income_m,2709.06281965,2593.66281965,115.4
-ONE_WAY,technology,-10%,,,2027_adjusted_ebitda_m,3182.06281965,3066.66281965,115.4
-ONE_WAY,technology,-10%,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,technology,+10%,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,technology,+10%,,,2027_operating_income_m,2478.26281965,2593.66281965,-115.4
-ONE_WAY,technology,+10%,,,2027_adjusted_ebitda_m,2951.26281965,3066.66281965,-115.4
-ONE_WAY,technology,+10%,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,general_admin,-10%,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,general_admin,-10%,,,2027_operating_income_m,2672.06281965,2593.66281965,78.4
-ONE_WAY,general_admin,-10%,,,2027_adjusted_ebitda_m,3145.06281965,3066.66281965,78.4
-ONE_WAY,general_admin,-10%,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-ONE_WAY,general_admin,+10%,,,2027_revenue_m,5907.14143814,5907.14143814,0
-ONE_WAY,general_admin,+10%,,,2027_operating_income_m,2515.26281965,2593.66281965,-78.4
-ONE_WAY,general_admin,+10%,,,2027_adjusted_ebitda_m,2988.26281965,3066.66281965,-78.4
-ONE_WAY,general_admin,+10%,,,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2027_revenue_m,5523.0151839,5907.14143814,-384.12625424
-TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2027_operating_income_m,2219.44842772,2593.66281965,-374.21439193
-TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2027_adjusted_ebitda_m,2692.44842772,3066.66281965,-374.21439193
-TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2029Q2_annualized_revenue_m,6317.66681021,6730.99185066,-413.32504046
-TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2027_operating_margin_pct,40.1854486,43.90724087,-3.72179227
-TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2027_revenue_m,5784.69903207,5907.14143814,-122.44240606
-TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2027_operating_income_m,2476.642863,2593.66281965,-117.01995665
-TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2027_adjusted_ebitda_m,2949.642863,3066.66281965,-117.01995665
-TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2029Q2_annualized_revenue_m,6599.24216711,6730.99185066,-131.74968355
-TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2027_operating_margin_pct,42.81368571,43.90724087,-1.09355516
-TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2027_revenue_m,5115.17173721,5907.14143814,-791.96970093
-TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2027_operating_income_m,1801.69311872,2593.66281965,-791.96970093
-TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2027_adjusted_ebitda_m,2274.69311872,3066.66281965,-791.96970093
-TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2029Q2_annualized_revenue_m,5711.91495504,6730.99185066,-1019.07689562
-TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2027_operating_margin_pct,35.22253428,43.90724087,-8.68470659
-TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2027_revenue_m,5450.24662102,5907.14143814,-456.89481712
-TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2027_operating_income_m,2403.32583428,2593.66281965,-190.33698537
-TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2027_adjusted_ebitda_m,2876.32583428,3066.66281965,-190.33698537
-TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2029Q2_annualized_revenue_m,6239.36685319,6730.99185066,-491.62499747
-TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2027_operating_margin_pct,44.09572633,43.90724087,0.18848546
-TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2027_revenue_m,5632.76554225,5907.14143814,-274.37589588
-TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2027_operating_income_m,2329.19878607,2593.66281965,-264.46403358
-TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2027_adjusted_ebitda_m,2802.19878607,3066.66281965,-264.46403358
-TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2029Q2_annualized_revenue_m,6435.75967891,6730.99185066,-295.23217175
-TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2027_operating_margin_pct,41.35089182,43.90724087,-2.55634904
-TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2027_revenue_m,5819.68257666,5907.14143814,-87.45886147
-TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2027_operating_income_m,2511.62640759,2593.66281965,-82.03641206
-TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2027_adjusted_ebitda_m,2984.62640759,3066.66281965,-82.03641206
-TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2029Q2_annualized_revenue_m,6636.88493384,6730.99185066,-94.10691682
-TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2027_operating_margin_pct,43.15744672,43.90724087,-0.74979414
-TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2027_revenue_m,5474.71881674,5907.14143814,-432.4226214
-TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2027_operating_income_m,2161.24019825,2593.66281965,-432.4226214
-TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2027_adjusted_ebitda_m,2634.24019825,3066.66281965,-432.4226214
-TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2029Q2_annualized_revenue_m,6217.60564829,6730.99185066,-513.38620237
-TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2027_operating_margin_pct,39.47673425,43.90724087,-4.43050662
-TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2027_revenue_m,5450.24662102,5907.14143814,-456.89481712
-TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2027_operating_income_m,2157.92583428,2593.66281965,-435.73698537
-TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2027_adjusted_ebitda_m,2630.92583428,3066.66281965,-435.73698537
-TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2029Q2_annualized_revenue_m,6239.36685319,6730.99185066,-491.62499747
-TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2027_operating_margin_pct,39.59317778,43.90724087,-4.31406308
-TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2027_revenue_m,5742.51590061,5907.14143814,-164.62553753
-TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2027_operating_income_m,2438.94914442,2593.66281965,-154.71367522
-TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2027_adjusted_ebitda_m,2911.94914442,3066.66281965,-154.71367522
-TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2029Q2_annualized_revenue_m,6553.85254761,6730.99185066,-177.13930305
-TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2027_operating_margin_pct,42.47178739,43.90724087,-1.43545347
-TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2027_revenue_m,5854.66612125,5907.14143814,-52.47531688
-TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2027_operating_income_m,2546.60995218,2593.66281965,-47.05286747
-TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2027_adjusted_ebitda_m,3019.60995218,3066.66281965,-47.05286747
-TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2029Q2_annualized_revenue_m,6674.52770057,6730.99185066,-56.46415009
-TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2027_operating_margin_pct,43.49709957,43.90724087,-0.4101413
-TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2027_revenue_m,5834.26589627,5907.14143814,-72.87554187
-TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2027_operating_income_m,2520.78727778,2593.66281965,-72.87554187
-TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2027_adjusted_ebitda_m,2993.78727778,3066.66281965,-72.87554187
-TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2029Q2_annualized_revenue_m,6723.29634153,6730.99185066,-7.69550913
-TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2027_operating_margin_pct,43.20658884,43.90724087,-0.70065203
-TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2027_revenue_m,5450.24662102,5907.14143814,-456.89481712
-TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2027_operating_income_m,1912.52583428,2593.66281965,-681.13698537
-TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2027_adjusted_ebitda_m,2385.52583428,3066.66281965,-681.13698537
-TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2029Q2_annualized_revenue_m,6239.36685319,6730.99185066,-491.62499747
-TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2027_operating_margin_pct,35.09062924,43.90724087,-8.81661163
-TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2027_revenue_m,5769.95349019,5907.14143814,-137.18794794
-TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2027_operating_income_m,2456.47487171,2593.66281965,-137.18794794
-TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2027_adjusted_ebitda_m,2929.47487171,3066.66281965,-137.18794794
-TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2029Q2_annualized_revenue_m,6583.37576479,6730.99185066,-147.61608588
-TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2027_operating_margin_pct,42.57356452,43.90724087,-1.33367635
-TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2027_revenue_m,5863.4120074,5907.14143814,-43.72943074
-TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2027_operating_income_m,2549.93338891,2593.66281965,-43.72943074
-TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2027_adjusted_ebitda_m,3022.93338891,3066.66281965,-43.72943074
-TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2029Q2_annualized_revenue_m,6683.93839225,6730.99185066,-47.05345841
-TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2027_operating_margin_pct,43.48890008,43.90724087,-0.41834079
-TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2027_revenue_m,5457.70758872,5907.14143814,-449.43384941
-TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2027_operating_income_m,2144.22897023,2593.66281965,-449.43384941
-TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2027_adjusted_ebitda_m,2617.22897023,3066.66281965,-449.43384941
-TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2029Q2_annualized_revenue_m,6098.87848411,6730.99185066,-632.11336656
-TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2027_operating_margin_pct,39.28808818,43.90724087,-4.61915268
-TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2027_revenue_m,5907.14143814,5907.14143814,0
-TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2027_operating_income_m,2839.06281965,2593.66281965,245.4
-TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2027_adjusted_ebitda_m,3312.06281965,3066.66281965,245.4
-TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2027_operating_margin_pct,48.06153449,43.90724087,4.15429362
-TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2027_revenue_m,5907.14143814,5907.14143814,0
-TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2027_operating_income_m,2593.66281965,2593.66281965,0
-TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2027_adjusted_ebitda_m,3066.66281965,3066.66281965,0
-TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2027_operating_margin_pct,43.90724087,43.90724087,0
-TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2027_revenue_m,5907.14143814,5907.14143814,0
-TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2027_operating_income_m,2593.66281965,2593.66281965,0
-TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2027_adjusted_ebitda_m,3066.66281965,3066.66281965,0
-TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2027_operating_margin_pct,43.90724087,43.90724087,0
-TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2027_revenue_m,5907.14143814,5907.14143814,0
-TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2027_operating_income_m,2593.66281965,2593.66281965,0
-TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2027_adjusted_ebitda_m,3066.66281965,3066.66281965,0
-TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2027_operating_margin_pct,43.90724087,43.90724087,0
-TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2027_revenue_m,5907.14143814,5907.14143814,0
-TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2027_operating_income_m,2593.66281965,2593.66281965,0
-TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2027_adjusted_ebitda_m,3066.66281965,3066.66281965,0
-TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2027_operating_margin_pct,43.90724087,43.90724087,0
-TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2027_revenue_m,6044.32938608,5907.14143814,137.18794794
-TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2027_operating_income_m,2730.85076759,2593.66281965,137.18794794
-TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2027_adjusted_ebitda_m,3203.85076759,3066.66281965,137.18794794
-TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2029Q2_annualized_revenue_m,6878.60793654,6730.99185066,147.61608588
-TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2027_operating_margin_pct,45.1803764,43.90724087,1.27313553
-TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2027_revenue_m,5950.87086887,5907.14143814,43.72943074
-TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2027_operating_income_m,2637.39225038,2593.66281965,43.72943074
-TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2027_adjusted_ebitda_m,3110.39225038,3066.66281965,43.72943074
-TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2029Q2_annualized_revenue_m,6778.04530907,6730.99185066,47.05345841
-TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2027_operating_margin_pct,44.31943338,43.90724087,0.41219251
-TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2027_revenue_m,6356.57528755,5907.14143814,449.43384941
-TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2027_operating_income_m,3043.09666906,2593.66281965,449.43384941
-TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2027_adjusted_ebitda_m,3516.09666906,3066.66281965,449.43384941
-TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2029Q2_annualized_revenue_m,7363.10521722,6730.99185066,632.11336656
-TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2027_operating_margin_pct,47.87321052,43.90724087,3.96596965
-TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2027_revenue_m,5907.14143814,5907.14143814,0
-TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2027_operating_income_m,2348.26281965,2593.66281965,-245.4
-TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2027_adjusted_ebitda_m,2821.26281965,3066.66281965,-245.4
-TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2029Q2_annualized_revenue_m,6730.99185066,6730.99185066,0
-TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2027_operating_margin_pct,39.75294725,43.90724087,-4.15429362
-TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2027_revenue_m,6016.89179649,5907.14143814,109.75035835
-TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2027_operating_income_m,2693.50131569,2593.66281965,99.83849605
-TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2027_adjusted_ebitda_m,3166.50131569,3066.66281965,99.83849605
-TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2029Q2_annualized_revenue_m,6849.08471936,6730.99185066,118.0928687
-TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2027_operating_margin_pct,44.76565986,43.90724087,0.85841899
-TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2027_revenue_m,5942.12498272,5907.14143814,34.98354459
-TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2027_operating_income_m,2623.22391483,2593.66281965,29.56109518
-TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2027_adjusted_ebitda_m,3096.22391483,3066.66281965,29.56109518
-TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2029Q2_annualized_revenue_m,6768.63461739,6730.99185066,37.64276673
-TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2027_operating_margin_pct,44.14622584,43.90724087,0.23898498
-TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2027_revenue_m,5800.24344024,5907.14143814,-106.8979979
-TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2027_operating_income_m,2486.76482175,2593.66281965,-106.8979979
-TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2027_adjusted_ebitda_m,2959.76482175,3066.66281965,-106.8979979
-TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2029Q2_annualized_revenue_m,6485.84201317,6730.99185066,-245.14983749
-TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2027_operating_margin_pct,42.87345604,43.90724087,-1.03378482
-TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2027_revenue_m,6364.03625525,5907.14143814,456.89481712
-TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2027_operating_income_m,3274.79980502,2593.66281965,681.13698537
-TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2027_adjusted_ebitda_m,3747.79980502,3066.66281965,681.13698537
-TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2029Q2_annualized_revenue_m,7222.61684814,6730.99185066,491.62499747
-TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2027_operating_margin_pct,51.45790617,43.90724087,7.5506653
-TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2027_revenue_m,6181.51733402,5907.14143814,274.37589588
-TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2027_operating_income_m,2858.12685323,2593.66281965,264.46403358
-TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2027_adjusted_ebitda_m,3331.12685323,3066.66281965,264.46403358
-TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2029Q2_annualized_revenue_m,7026.22402242,6730.99185066,295.23217175
-TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2027_operating_margin_pct,46.23665516,43.90724087,2.32941429
-TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2027_revenue_m,5994.60029961,5907.14143814,87.45886147
-TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2027_operating_income_m,2675.69923171,2593.66281965,82.03641206
-TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2027_adjusted_ebitda_m,3148.69923171,3066.66281965,82.03641206
-TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2029Q2_annualized_revenue_m,6825.09876748,6730.99185066,94.10691682
-TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2027_operating_margin_pct,44.63515661,43.90724087,0.72791574
-TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2027_revenue_m,6339.56405953,5907.14143814,432.4226214
-TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2027_operating_income_m,3026.08544104,2593.66281965,432.4226214
-TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2027_adjusted_ebitda_m,3499.08544104,3066.66281965,432.4226214
-TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2029Q2_annualized_revenue_m,7244.37805304,6730.99185066,513.38620237
-TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2027_operating_margin_pct,47.73333643,43.90724087,3.82609557
-TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2027_revenue_m,6364.03625525,5907.14143814,456.89481712
-TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2027_operating_income_m,3029.39980502,2593.66281965,435.73698537
-TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2027_adjusted_ebitda_m,3502.39980502,3066.66281965,435.73698537
-TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2029Q2_annualized_revenue_m,7222.61684814,6730.99185066,491.62499747
-TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2027_operating_margin_pct,47.60186277,43.90724087,3.6946219
-TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2027_revenue_m,6346.14287155,5907.14143814,439.00143341
-TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2027_operating_income_m,3022.75239076,2593.66281965,429.08957111
-TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2027_adjusted_ebitda_m,3495.75239076,3066.66281965,429.08957111
-TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2029Q2_annualized_revenue_m,7203.36332547,6730.99185066,472.37147481
-TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2027_operating_margin_pct,47.63133216,43.90724087,3.7240913
-TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2027_revenue_m,6047.07561649,5907.14143814,139.93417836
-TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2027_operating_income_m,2728.17454859,2593.66281965,134.51172895
-TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2027_adjusted_ebitda_m,3201.17454859,3066.66281965,134.51172895
-TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2029Q2_annualized_revenue_m,6881.56291758,6730.99185066,150.57106691
-TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2027_operating_margin_pct,45.11560168,43.90724087,1.20836081
-TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2027_revenue_m,6878.88467883,5907.14143814,971.74324069
-TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2027_operating_income_m,3565.40606034,2593.66281965,971.74324069
-TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2027_adjusted_ebitda_m,4038.40606034,3066.66281965,971.74324069
-TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2029Q2_annualized_revenue_m,8002.9140929,6730.99185066,1271.92224224
-TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2027_operating_margin_pct,51.83116489,43.90724087,7.92392402
-TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2027_revenue_m,6364.03625525,5907.14143814,456.89481712
-TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2027_operating_income_m,2783.99980502,2593.66281965,190.33698537
-TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2027_adjusted_ebitda_m,3256.99980502,3066.66281965,190.33698537
-TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2029Q2_annualized_revenue_m,7222.61684814,6730.99185066,491.62499747
-TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2027_operating_margin_pct,43.74581937,43.90724087,-0.1614215
+ONE_WAY,options_activity,-20%,,,2027_revenue_m,5591.90074993,5866.27664581,-274.37589588
+ONE_WAY,options_activity,-20%,,,2027_operating_income_m,2288.33399375,2552.79802732,-264.46403358
+ONE_WAY,options_activity,-20%,,,2027_adjusted_ebitda_m,2761.33399375,3025.79802732,-264.46403358
+ONE_WAY,options_activity,-20%,,,2029Q2_annualized_revenue_m,6477.66549612,6772.89766787,-295.23217175
+ONE_WAY,options_activity,-10%,,,2027_revenue_m,5729.08869787,5866.27664581,-137.18794794
+ONE_WAY,options_activity,-10%,,,2027_operating_income_m,2420.56601054,2552.79802732,-132.23201679
+ONE_WAY,options_activity,-10%,,,2027_adjusted_ebitda_m,2893.56601054,3025.79802732,-132.23201679
+ONE_WAY,options_activity,-10%,,,2029Q2_annualized_revenue_m,6625.281582,6772.89766787,-147.61608588
+ONE_WAY,options_activity,Base,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,options_activity,Base,,,2027_operating_income_m,2552.79802732,2552.79802732,0
+ONE_WAY,options_activity,Base,,,2027_adjusted_ebitda_m,3025.79802732,3025.79802732,0
+ONE_WAY,options_activity,Base,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,options_activity,+10%,,,2027_revenue_m,6003.46459375,5866.27664581,137.18794794
+ONE_WAY,options_activity,+10%,,,2027_operating_income_m,2685.03004411,2552.79802732,132.23201679
+ONE_WAY,options_activity,+10%,,,2027_adjusted_ebitda_m,3158.03004411,3025.79802732,132.23201679
+ONE_WAY,options_activity,+10%,,,2029Q2_annualized_revenue_m,6920.51375375,6772.89766787,147.61608588
+ONE_WAY,options_activity,+20%,,,2027_revenue_m,6140.6525417,5866.27664581,274.37589588
+ONE_WAY,options_activity,+20%,,,2027_operating_income_m,2817.2620609,2552.79802732,264.46403358
+ONE_WAY,options_activity,+20%,,,2027_adjusted_ebitda_m,3290.2620609,3025.79802732,264.46403358
+ONE_WAY,options_activity,+20%,,,2029Q2_annualized_revenue_m,7068.12983963,6772.89766787,295.23217175
+ONE_WAY,crypto_activity,-20%,,,2027_revenue_m,5778.81778434,5866.27664581,-87.45886147
+ONE_WAY,crypto_activity,-20%,,,2027_operating_income_m,2470.76161526,2552.79802732,-82.03641206
+ONE_WAY,crypto_activity,-20%,,,2027_adjusted_ebitda_m,2943.76161526,3025.79802732,-82.03641206
+ONE_WAY,crypto_activity,-20%,,,2029Q2_annualized_revenue_m,6678.79075105,6772.89766787,-94.10691682
+ONE_WAY,crypto_activity,-10%,,,2027_revenue_m,5822.54721508,5866.27664581,-43.72943074
+ONE_WAY,crypto_activity,-10%,,,2027_operating_income_m,2511.77982129,2552.79802732,-41.01820603
+ONE_WAY,crypto_activity,-10%,,,2027_adjusted_ebitda_m,2984.77982129,3025.79802732,-41.01820603
+ONE_WAY,crypto_activity,-10%,,,2029Q2_annualized_revenue_m,6725.84420946,6772.89766787,-47.05345841
+ONE_WAY,crypto_activity,Base,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,crypto_activity,Base,,,2027_operating_income_m,2552.79802732,2552.79802732,0
+ONE_WAY,crypto_activity,Base,,,2027_adjusted_ebitda_m,3025.79802732,3025.79802732,0
+ONE_WAY,crypto_activity,Base,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,crypto_activity,+10%,,,2027_revenue_m,5910.00607655,5866.27664581,43.72943074
+ONE_WAY,crypto_activity,+10%,,,2027_operating_income_m,2593.81623336,2552.79802732,41.01820603
+ONE_WAY,crypto_activity,+10%,,,2027_adjusted_ebitda_m,3066.81623336,3025.79802732,41.01820603
+ONE_WAY,crypto_activity,+10%,,,2029Q2_annualized_revenue_m,6819.95112628,6772.89766787,47.05345841
+ONE_WAY,crypto_activity,+20%,,,2027_revenue_m,5953.73550729,5866.27664581,87.45886147
+ONE_WAY,crypto_activity,+20%,,,2027_operating_income_m,2634.83443939,2552.79802732,82.03641206
+ONE_WAY,crypto_activity,+20%,,,2027_adjusted_ebitda_m,3107.83443939,3025.79802732,82.03641206
+ONE_WAY,crypto_activity,+20%,,,2029Q2_annualized_revenue_m,6867.00458469,6772.89766787,94.10691682
+ONE_WAY,equity_activity,-20%,,,2027_revenue_m,5771.21658605,5866.27664581,-95.06005976
+ONE_WAY,equity_activity,-20%,,,2027_operating_income_m,2463.56148759,2552.79802732,-89.23653973
+ONE_WAY,equity_activity,-20%,,,2027_adjusted_ebitda_m,2936.56148759,3025.79802732,-89.23653973
+ONE_WAY,equity_activity,-20%,,,2029Q2_annualized_revenue_m,6670.61175897,6772.89766787,-102.2859089
+ONE_WAY,equity_activity,-10%,,,2027_revenue_m,5818.74661593,5866.27664581,-47.53002988
+ONE_WAY,equity_activity,-10%,,,2027_operating_income_m,2508.17975746,2552.79802732,-44.61826987
+ONE_WAY,equity_activity,-10%,,,2027_adjusted_ebitda_m,2981.17975746,3025.79802732,-44.61826987
+ONE_WAY,equity_activity,-10%,,,2029Q2_annualized_revenue_m,6721.75471342,6772.89766787,-51.14295445
+ONE_WAY,equity_activity,Base,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,equity_activity,Base,,,2027_operating_income_m,2552.79802732,2552.79802732,0
+ONE_WAY,equity_activity,Base,,,2027_adjusted_ebitda_m,3025.79802732,3025.79802732,0
+ONE_WAY,equity_activity,Base,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,equity_activity,+10%,,,2027_revenue_m,5913.80667569,5866.27664581,47.53002988
+ONE_WAY,equity_activity,+10%,,,2027_operating_income_m,2597.41629719,2552.79802732,44.61826987
+ONE_WAY,equity_activity,+10%,,,2027_adjusted_ebitda_m,3070.41629719,3025.79802732,44.61826987
+ONE_WAY,equity_activity,+10%,,,2029Q2_annualized_revenue_m,6824.04062232,6772.89766787,51.14295445
+ONE_WAY,equity_activity,+20%,,,2027_revenue_m,5961.33670557,5866.27664581,95.06005976
+ONE_WAY,equity_activity,+20%,,,2027_operating_income_m,2642.03456706,2552.79802732,89.23653973
+ONE_WAY,equity_activity,+20%,,,2027_adjusted_ebitda_m,3115.03456706,3025.79802732,89.23653973
+ONE_WAY,equity_activity,+20%,,,2029Q2_annualized_revenue_m,6875.18357677,6772.89766787,102.2859089
+ONE_WAY,event_activity,-20%,,,2027_revenue_m,5709.81526555,5866.27664581,-156.46138026
+ONE_WAY,event_activity,-20%,,,2027_operating_income_m,2400.9307915,2552.79802732,-151.86723583
+ONE_WAY,event_activity,-20%,,,2027_adjusted_ebitda_m,2873.9307915,3025.79802732,-151.86723583
+ONE_WAY,event_activity,-20%,,,2029Q2_annualized_revenue_m,6604.54310837,6772.89766787,-168.3545595
+ONE_WAY,event_activity,-10%,,,2027_revenue_m,5788.04595568,5866.27664581,-78.23069013
+ONE_WAY,event_activity,-10%,,,2027_operating_income_m,2476.86440941,2552.79802732,-75.93361791
+ONE_WAY,event_activity,-10%,,,2027_adjusted_ebitda_m,2949.86440941,3025.79802732,-75.93361791
+ONE_WAY,event_activity,-10%,,,2029Q2_annualized_revenue_m,6688.72038812,6772.89766787,-84.17727975
+ONE_WAY,event_activity,Base,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,event_activity,Base,,,2027_operating_income_m,2552.79802732,2552.79802732,0
+ONE_WAY,event_activity,Base,,,2027_adjusted_ebitda_m,3025.79802732,3025.79802732,0
+ONE_WAY,event_activity,Base,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,event_activity,+10%,,,2027_revenue_m,5944.50733594,5866.27664581,78.23069013
+ONE_WAY,event_activity,+10%,,,2027_operating_income_m,2628.73164524,2552.79802732,75.93361791
+ONE_WAY,event_activity,+10%,,,2027_adjusted_ebitda_m,3101.73164524,3025.79802732,75.93361791
+ONE_WAY,event_activity,+10%,,,2029Q2_annualized_revenue_m,6857.07494762,6772.89766787,84.17727975
+ONE_WAY,event_activity,+20%,,,2027_revenue_m,6022.73802607,5866.27664581,156.46138026
+ONE_WAY,event_activity,+20%,,,2027_operating_income_m,2704.66526315,2552.79802732,151.86723583
+ONE_WAY,event_activity,+20%,,,2027_adjusted_ebitda_m,3177.66526315,3025.79802732,151.86723583
+ONE_WAY,event_activity,+20%,,,2029Q2_annualized_revenue_m,6941.25222738,6772.89766787,168.3545595
+ONE_WAY,transaction_monetization,-20%,,,2027_revenue_m,5252.92044843,5866.27664581,-613.35619738
+ONE_WAY,transaction_monetization,-20%,,,2027_operating_income_m,1939.44182995,2552.79802732,-613.35619738
+ONE_WAY,transaction_monetization,-20%,,,2027_adjusted_ebitda_m,2412.44182995,3025.79802732,-613.35619738
+ONE_WAY,transaction_monetization,-20%,,,2029Q2_annualized_revenue_m,6112.9181109,6772.89766787,-659.97955698
+ONE_WAY,transaction_monetization,-10%,,,2027_revenue_m,5559.59854712,5866.27664581,-306.67809869
+ONE_WAY,transaction_monetization,-10%,,,2027_operating_income_m,2246.11992864,2552.79802732,-306.67809869
+ONE_WAY,transaction_monetization,-10%,,,2027_adjusted_ebitda_m,2719.11992864,3025.79802732,-306.67809869
+ONE_WAY,transaction_monetization,-10%,,,2029Q2_annualized_revenue_m,6442.90788938,6772.89766787,-329.98977849
+ONE_WAY,transaction_monetization,Base,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,transaction_monetization,Base,,,2027_operating_income_m,2552.79802732,2552.79802732,0
+ONE_WAY,transaction_monetization,Base,,,2027_adjusted_ebitda_m,3025.79802732,3025.79802732,0
+ONE_WAY,transaction_monetization,Base,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,transaction_monetization,+10%,,,2027_revenue_m,6172.9547445,5866.27664581,306.67809869
+ONE_WAY,transaction_monetization,+10%,,,2027_operating_income_m,2859.47612601,2552.79802732,306.67809869
+ONE_WAY,transaction_monetization,+10%,,,2027_adjusted_ebitda_m,3332.47612601,3025.79802732,306.67809869
+ONE_WAY,transaction_monetization,+10%,,,2029Q2_annualized_revenue_m,7102.88744636,6772.89766787,329.98977849
+ONE_WAY,transaction_monetization,+20%,,,2027_revenue_m,6479.63284319,5866.27664581,613.35619738
+ONE_WAY,transaction_monetization,+20%,,,2027_operating_income_m,3166.1542247,2552.79802732,613.35619738
+ONE_WAY,transaction_monetization,+20%,,,2027_adjusted_ebitda_m,3639.1542247,3025.79802732,613.35619738
+ONE_WAY,transaction_monetization,+20%,,,2029Q2_annualized_revenue_m,7432.87722485,6772.89766787,659.97955698
+ONE_WAY,customer_additions,-25%,,,2027_revenue_m,5829.68669444,5866.27664581,-36.58995137
+ONE_WAY,customer_additions,-25%,,,2027_operating_income_m,2544.0998003,2552.79802732,-8.69822703
+ONE_WAY,customer_additions,-25%,,,2027_adjusted_ebitda_m,3017.0998003,3025.79802732,-8.69822703
+ONE_WAY,customer_additions,-25%,,,2029Q2_annualized_revenue_m,6656.86824317,6772.89766787,-116.0294247
+ONE_WAY,customer_additions,+25%,,,2027_revenue_m,5902.86659719,5866.27664581,36.58995137
+ONE_WAY,customer_additions,+25%,,,2027_operating_income_m,2561.49625435,2552.79802732,8.69822703
+ONE_WAY,customer_additions,+25%,,,2027_adjusted_ebitda_m,3034.49625435,3025.79802732,8.69822703
+ONE_WAY,customer_additions,+25%,,,2029Q2_annualized_revenue_m,6888.92709258,6772.89766787,116.0294247
+ONE_WAY,net_deposits,-25%,,,2027_revenue_m,5823.67438734,5866.27664581,-42.60225847
+ONE_WAY,net_deposits,-25%,,,2027_operating_income_m,2510.19576885,2552.79802732,-42.60225847
+ONE_WAY,net_deposits,-25%,,,2027_adjusted_ebitda_m,2983.19576885,3025.79802732,-42.60225847
+ONE_WAY,net_deposits,-25%,,,2029Q2_annualized_revenue_m,6640.28619024,6772.89766787,-132.61147763
+ONE_WAY,net_deposits,+25%,,,2027_revenue_m,5908.87890429,5866.27664581,42.60225847
+ONE_WAY,net_deposits,+25%,,,2027_operating_income_m,2595.4002858,2552.79802732,42.60225847
+ONE_WAY,net_deposits,+25%,,,2027_adjusted_ebitda_m,3068.4002858,3025.79802732,42.60225847
+ONE_WAY,net_deposits,+25%,,,2029Q2_annualized_revenue_m,6905.5091455,6772.89766787,132.61147763
+ONE_WAY,realized_yields,-100bp,,,2027_revenue_m,5133.66434667,5866.27664581,-732.61229914
+ONE_WAY,realized_yields,-100bp,,,2027_operating_income_m,1820.18572819,2552.79802732,-732.61229914
+ONE_WAY,realized_yields,-100bp,,,2027_adjusted_ebitda_m,2293.18572819,3025.79802732,-732.61229914
+ONE_WAY,realized_yields,-100bp,,,2029Q2_annualized_revenue_m,5759.45488408,6772.89766787,-1013.4427838
+ONE_WAY,realized_yields,-50bp,,,2027_revenue_m,5416.8427964,5866.27664581,-449.43384941
+ONE_WAY,realized_yields,-50bp,,,2027_operating_income_m,2103.36417791,2552.79802732,-449.43384941
+ONE_WAY,realized_yields,-50bp,,,2027_adjusted_ebitda_m,2576.36417791,3025.79802732,-449.43384941
+ONE_WAY,realized_yields,-50bp,,,2029Q2_annualized_revenue_m,6140.78430132,6772.89766787,-632.11336656
+ONE_WAY,realized_yields,+50bp,,,2027_revenue_m,6315.71049523,5866.27664581,449.43384941
+ONE_WAY,realized_yields,+50bp,,,2027_operating_income_m,3002.23187674,2552.79802732,449.43384941
+ONE_WAY,realized_yields,+50bp,,,2027_adjusted_ebitda_m,3475.23187674,3025.79802732,449.43384941
+ONE_WAY,realized_yields,+50bp,,,2029Q2_annualized_revenue_m,7405.01103443,6772.89766787,632.11336656
+ONE_WAY,realized_yields,+100bp,,,2027_revenue_m,6765.14434464,5866.27664581,898.86769883
+ONE_WAY,realized_yields,+100bp,,,2027_operating_income_m,3451.66572615,2552.79802732,898.86769883
+ONE_WAY,realized_yields,+100bp,,,2027_adjusted_ebitda_m,3924.66572615,3025.79802732,898.86769883
+ONE_WAY,realized_yields,+100bp,,,2029Q2_annualized_revenue_m,8037.12440099,6772.89766787,1264.22673311
+ONE_WAY,policy_rate_with_pass_through,-100bp,,,2027_revenue_m,5601.58225811,5866.27664581,-264.6943877
+ONE_WAY,policy_rate_with_pass_through,-100bp,,,2027_operating_income_m,2288.10363963,2552.79802732,-264.6943877
+ONE_WAY,policy_rate_with_pass_through,-100bp,,,2027_adjusted_ebitda_m,2761.10363963,3025.79802732,-264.6943877
+ONE_WAY,policy_rate_with_pass_through,-100bp,,,2029Q2_annualized_revenue_m,6455.41221691,6772.89766787,-317.48545097
+ONE_WAY,policy_rate_with_pass_through,-50bp,,,2027_revenue_m,5733.92945196,5866.27664581,-132.34719385
+ONE_WAY,policy_rate_with_pass_through,-50bp,,,2027_operating_income_m,2420.45083348,2552.79802732,-132.34719385
+ONE_WAY,policy_rate_with_pass_through,-50bp,,,2027_adjusted_ebitda_m,2893.45083348,3025.79802732,-132.34719385
+ONE_WAY,policy_rate_with_pass_through,-50bp,,,2029Q2_annualized_revenue_m,6614.15494239,6772.89766787,-158.74272548
+ONE_WAY,policy_rate_with_pass_through,+50bp,,,2027_revenue_m,5998.62383966,5866.27664581,132.34719385
+ONE_WAY,policy_rate_with_pass_through,+50bp,,,2027_operating_income_m,2685.14522117,2552.79802732,132.34719385
+ONE_WAY,policy_rate_with_pass_through,+50bp,,,2027_adjusted_ebitda_m,3158.14522117,3025.79802732,132.34719385
+ONE_WAY,policy_rate_with_pass_through,+50bp,,,2029Q2_annualized_revenue_m,6931.64039336,6772.89766787,158.74272548
+ONE_WAY,policy_rate_with_pass_through,+100bp,,,2027_revenue_m,6130.97103351,5866.27664581,264.6943877
+ONE_WAY,policy_rate_with_pass_through,+100bp,,,2027_operating_income_m,2817.49241502,2552.79802732,264.6943877
+ONE_WAY,policy_rate_with_pass_through,+100bp,,,2027_adjusted_ebitda_m,3290.49241502,3025.79802732,264.6943877
+ONE_WAY,policy_rate_with_pass_through,+100bp,,,2029Q2_annualized_revenue_m,7090.38311884,6772.89766787,317.48545097
+ONE_WAY,cash_capture,-50%,,,2027_revenue_m,5781.07212887,5866.27664581,-85.20451695
+ONE_WAY,cash_capture,-50%,,,2027_operating_income_m,2467.59351038,2552.79802732,-85.20451695
+ONE_WAY,cash_capture,-50%,,,2027_adjusted_ebitda_m,2940.59351038,3025.79802732,-85.20451695
+ONE_WAY,cash_capture,-50%,,,2029Q2_annualized_revenue_m,6507.67471261,6772.89766787,-265.22295526
+ONE_WAY,cash_capture,+50%,,,2027_revenue_m,5951.48116276,5866.27664581,85.20451695
+ONE_WAY,cash_capture,+50%,,,2027_operating_income_m,2638.00254427,2552.79802732,85.20451695
+ONE_WAY,cash_capture,+50%,,,2027_adjusted_ebitda_m,3111.00254427,3025.79802732,85.20451695
+ONE_WAY,cash_capture,+50%,,,2029Q2_annualized_revenue_m,7038.12062314,6772.89766787,265.22295526
+ONE_WAY,margin_balance_intensity,-20%,,,2027_revenue_m,5652.00939447,5866.27664581,-214.26725134
+ONE_WAY,margin_balance_intensity,-20%,,,2027_operating_income_m,2338.53077598,2552.79802732,-214.26725134
+ONE_WAY,margin_balance_intensity,-20%,,,2027_adjusted_ebitda_m,2811.53077598,3025.79802732,-214.26725134
+ONE_WAY,margin_balance_intensity,-20%,,,2029Q2_annualized_revenue_m,6565.72188675,6772.89766787,-207.17578113
+ONE_WAY,margin_balance_intensity,+20%,,,2027_revenue_m,6080.54389715,5866.27664581,214.26725134
+ONE_WAY,margin_balance_intensity,+20%,,,2027_operating_income_m,2767.06527866,2552.79802732,214.26725134
+ONE_WAY,margin_balance_intensity,+20%,,,2027_adjusted_ebitda_m,3240.06527866,3025.79802732,214.26725134
+ONE_WAY,margin_balance_intensity,+20%,,,2029Q2_annualized_revenue_m,6980.073449,6772.89766787,207.17578113
+ONE_WAY,credit_balance_growth,-25%,,,2027_revenue_m,5830.86743294,5866.27664581,-35.40921287
+ONE_WAY,credit_balance_growth,-25%,,,2027_operating_income_m,2562.10401108,2552.79802732,9.30598376
+ONE_WAY,credit_balance_growth,-25%,,,2027_adjusted_ebitda_m,3035.10401108,3025.79802732,9.30598376
+ONE_WAY,credit_balance_growth,-25%,,,2029Q2_annualized_revenue_m,6662.55680933,6772.89766787,-110.34085854
+ONE_WAY,credit_balance_growth,+25%,,,2027_revenue_m,5905.80063197,5866.27664581,39.52398615
+ONE_WAY,credit_balance_growth,+25%,,,2027_operating_income_m,2542.41062971,2552.79802732,-10.38739761
+ONE_WAY,credit_balance_growth,+25%,,,2027_adjusted_ebitda_m,3015.41062971,3025.79802732,-10.38739761
+ONE_WAY,credit_balance_growth,+25%,,,2029Q2_annualized_revenue_m,6912.59227136,6772.89766787,139.69460349
+ONE_WAY,credit_provision,-20%,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,credit_provision,-20%,,,2027_operating_income_m,2623.59867625,2552.79802732,70.80064893
+ONE_WAY,credit_provision,-20%,,,2027_adjusted_ebitda_m,3096.59867625,3025.79802732,70.80064893
+ONE_WAY,credit_provision,-20%,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,credit_provision,+20%,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,credit_provision,+20%,,,2027_operating_income_m,2481.9973784,2552.79802732,-70.80064893
+ONE_WAY,credit_provision,+20%,,,2027_adjusted_ebitda_m,2954.9973784,3025.79802732,-70.80064893
+ONE_WAY,credit_provision,+20%,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,marketing,-10%,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,marketing,-10%,,,2027_operating_income_m,2604.39802732,2552.79802732,51.6
+ONE_WAY,marketing,-10%,,,2027_adjusted_ebitda_m,3077.39802732,3025.79802732,51.6
+ONE_WAY,marketing,-10%,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,marketing,+10%,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,marketing,+10%,,,2027_operating_income_m,2501.19802732,2552.79802732,-51.6
+ONE_WAY,marketing,+10%,,,2027_adjusted_ebitda_m,2974.19802732,3025.79802732,-51.6
+ONE_WAY,marketing,+10%,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,technology,-10%,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,technology,-10%,,,2027_operating_income_m,2668.19802732,2552.79802732,115.4
+ONE_WAY,technology,-10%,,,2027_adjusted_ebitda_m,3141.19802732,3025.79802732,115.4
+ONE_WAY,technology,-10%,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,technology,+10%,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,technology,+10%,,,2027_operating_income_m,2437.39802732,2552.79802732,-115.4
+ONE_WAY,technology,+10%,,,2027_adjusted_ebitda_m,2910.39802732,3025.79802732,-115.4
+ONE_WAY,technology,+10%,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,general_admin,-10%,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,general_admin,-10%,,,2027_operating_income_m,2631.19802732,2552.79802732,78.4
+ONE_WAY,general_admin,-10%,,,2027_adjusted_ebitda_m,3104.19802732,3025.79802732,78.4
+ONE_WAY,general_admin,-10%,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+ONE_WAY,general_admin,+10%,,,2027_revenue_m,5866.27664581,5866.27664581,0
+ONE_WAY,general_admin,+10%,,,2027_operating_income_m,2474.39802732,2552.79802732,-78.4
+ONE_WAY,general_admin,+10%,,,2027_adjusted_ebitda_m,2947.39802732,3025.79802732,-78.4
+ONE_WAY,general_admin,+10%,,,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2027_revenue_m,5482.15039158,5866.27664581,-384.12625424
+TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2027_operating_income_m,2178.58363539,2552.79802732,-374.21439193
+TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2027_adjusted_ebitda_m,2651.58363539,3025.79802732,-374.21439193
+TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2029Q2_annualized_revenue_m,6359.57262742,6772.89766787,-413.32504046
+TWO_WAY,options_activity_x_price,80% x 90%,80%,90%,2027_operating_margin_pct,39.73958173,43.51649575,-3.77691402
+TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2027_revenue_m,5743.83423975,5866.27664581,-122.44240606
+TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2027_operating_income_m,2435.77807067,2552.79802732,-117.01995665
+TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2027_adjusted_ebitda_m,2908.77807067,3025.79802732,-117.01995665
+TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2029Q2_annualized_revenue_m,6641.14798432,6772.89766787,-131.74968355
+TWO_WAY,crypto_activity_x_bps,80% x 90%,80%,90%,2027_operating_margin_pct,42.40683086,43.51649575,-1.1096649
+TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2027_revenue_m,5082.47990335,5866.27664581,-783.79674246
+TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2027_operating_income_m,1769.00128486,2552.79802732,-783.79674246
+TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2027_adjusted_ebitda_m,2242.00128486,3025.79802732,-783.79674246
+TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2029Q2_annualized_revenue_m,5745.43960881,6772.89766787,-1027.45805906
+TWO_WAY,balances_x_yield,80% balances x -50bp,80%,-50bp,2027_operating_margin_pct,34.80586876,43.51649575,-8.71062699
+TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2027_revenue_m,5409.38182869,5866.27664581,-456.89481712
+TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2027_operating_income_m,2362.46104195,2552.79802732,-190.33698537
+TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2027_adjusted_ebitda_m,2835.46104195,3025.79802732,-190.33698537
+TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2029Q2_annualized_revenue_m,6281.2726704,6772.89766787,-491.62499747
+TWO_WAY,trading_activity_x_opex,80% x 90%,80%,90%,2027_operating_margin_pct,43.67340145,43.51649575,0.1569057
+TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2027_revenue_m,5591.90074993,5866.27664581,-274.37589588
+TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2027_operating_income_m,2288.33399375,2552.79802732,-264.46403358
+TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2027_adjusted_ebitda_m,2761.33399375,3025.79802732,-264.46403358
+TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2029Q2_annualized_revenue_m,6477.66549612,6772.89766787,-295.23217175
+TWO_WAY,options_activity_x_price,80% x 100%,80%,100%,2027_operating_margin_pct,40.92229272,43.51649575,-2.59420303
+TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2027_revenue_m,5778.81778434,5866.27664581,-87.45886147
+TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2027_operating_income_m,2470.76161526,2552.79802732,-82.03641206
+TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2027_adjusted_ebitda_m,2943.76161526,3025.79802732,-82.03641206
+TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2029Q2_annualized_revenue_m,6678.79075105,6772.89766787,-94.10691682
+TWO_WAY,crypto_activity_x_bps,80% x 100%,80%,100%,2027_operating_margin_pct,42.75548577,43.51649575,-0.76100998
+TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2027_revenue_m,5442.02698288,5866.27664581,-424.24966293
+TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2027_operating_income_m,2128.54836439,2552.79802732,-424.24966293
+TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2027_adjusted_ebitda_m,2601.54836439,3025.79802732,-424.24966293
+TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2029Q2_annualized_revenue_m,6251.13030206,6772.89766787,-521.76736582
+TWO_WAY,balances_x_yield,80% balances x +0bp,80%,+0bp,2027_operating_margin_pct,39.11315345,43.51649575,-4.40334231
+TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2027_revenue_m,5409.38182869,5866.27664581,-456.89481712
+TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2027_operating_income_m,2117.06104195,2552.79802732,-435.73698537
+TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2027_adjusted_ebitda_m,2590.06104195,3025.79802732,-435.73698537
+TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2029Q2_annualized_revenue_m,6281.2726704,6772.89766787,-491.62499747
+TWO_WAY,trading_activity_x_opex,80% x 100%,80%,100%,2027_operating_margin_pct,39.13683872,43.51649575,-4.37965703
+TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2027_revenue_m,5701.65110828,5866.27664581,-164.62553753
+TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2027_operating_income_m,2398.0843521,2552.79802732,-154.71367522
+TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2027_adjusted_ebitda_m,2871.0843521,3025.79802732,-154.71367522
+TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2029Q2_annualized_revenue_m,6595.75836482,6772.89766787,-177.13930305
+TWO_WAY,options_activity_x_price,80% x 110%,80%,110%,2027_operating_margin_pct,42.05947201,43.51649575,-1.45702374
+TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2027_revenue_m,5813.80132893,5866.27664581,-52.47531688
+TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2027_operating_income_m,2505.74515985,2552.79802732,-47.05286747
+TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2027_adjusted_ebitda_m,2978.74515985,3025.79802732,-47.05286747
+TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2029Q2_annualized_revenue_m,6716.43351778,6772.89766787,-56.46415009
+TWO_WAY,crypto_activity_x_bps,80% x 110%,80%,110%,2027_operating_margin_pct,43.09994474,43.51649575,-0.41655101
+TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2027_revenue_m,5801.57406241,5866.27664581,-64.7025834
+TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2027_operating_income_m,2488.09544392,2552.79802732,-64.7025834
+TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2027_adjusted_ebitda_m,2961.09544392,3025.79802732,-64.7025834
+TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2029Q2_annualized_revenue_m,6756.8209953,6772.89766787,-16.07667257
+TWO_WAY,balances_x_yield,80% balances x +50bp,80%,+50bp,2027_operating_margin_pct,42.88655832,43.51649575,-0.62993743
+TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2027_revenue_m,5409.38182869,5866.27664581,-456.89481712
+TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2027_operating_income_m,1871.66104195,2552.79802732,-681.13698537
+TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2027_adjusted_ebitda_m,2344.66104195,3025.79802732,-681.13698537
+TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2029Q2_annualized_revenue_m,6281.2726704,6772.89766787,-491.62499747
+TWO_WAY,trading_activity_x_opex,80% x 110%,80%,110%,2027_operating_margin_pct,34.60027599,43.51649575,-8.91621976
+TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2027_revenue_m,5729.08869787,5866.27664581,-137.18794794
+TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2027_operating_income_m,2415.61007938,2552.79802732,-137.18794794
+TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2027_adjusted_ebitda_m,2888.61007938,3025.79802732,-137.18794794
+TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2029Q2_annualized_revenue_m,6625.281582,6772.89766787,-147.61608588
+TWO_WAY,options_activity_x_price,100% x 90%,100%,90%,2027_operating_margin_pct,42.16394974,43.51649575,-1.35254601
+TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2027_revenue_m,5822.54721508,5866.27664581,-43.72943074
+TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2027_operating_income_m,2509.06859659,2552.79802732,-43.72943074
+TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2027_adjusted_ebitda_m,2982.06859659,3025.79802732,-43.72943074
+TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2029Q2_annualized_revenue_m,6725.84420946,6772.89766787,-47.05345841
+TWO_WAY,crypto_activity_x_bps,100% x 90%,100%,90%,2027_operating_margin_pct,43.09228425,43.51649575,-0.4242115
+TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2027_revenue_m,5416.8427964,5866.27664581,-449.43384941
+TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2027_operating_income_m,2103.36417791,2552.79802732,-449.43384941
+TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2027_adjusted_ebitda_m,2576.36417791,3025.79802732,-449.43384941
+TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2029Q2_annualized_revenue_m,6140.78430132,6772.89766787,-632.11336656
+TWO_WAY,balances_x_yield,100% balances x -50bp,100%,-50bp,2027_operating_margin_pct,38.83007606,43.51649575,-4.68641969
+TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2027_revenue_m,5866.27664581,5866.27664581,0
+TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2027_operating_income_m,2798.19802732,2552.79802732,245.4
+TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2027_adjusted_ebitda_m,3271.19802732,3025.79802732,245.4
+TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+TWO_WAY,trading_activity_x_opex,100% x 90%,100%,90%,2027_operating_margin_pct,47.6997284,43.51649575,4.18323265
+TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2027_revenue_m,5866.27664581,5866.27664581,0
+TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2027_operating_income_m,2552.79802732,2552.79802732,0
+TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2027_adjusted_ebitda_m,3025.79802732,3025.79802732,0
+TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+TWO_WAY,options_activity_x_price,100% x 100%,100%,100%,2027_operating_margin_pct,43.51649575,43.51649575,0
+TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2027_revenue_m,5866.27664581,5866.27664581,0
+TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2027_operating_income_m,2552.79802732,2552.79802732,0
+TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2027_adjusted_ebitda_m,3025.79802732,3025.79802732,0
+TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+TWO_WAY,crypto_activity_x_bps,100% x 100%,100%,100%,2027_operating_margin_pct,43.51649575,43.51649575,0
+TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2027_revenue_m,5866.27664581,5866.27664581,0
+TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2027_operating_income_m,2552.79802732,2552.79802732,0
+TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2027_adjusted_ebitda_m,3025.79802732,3025.79802732,0
+TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+TWO_WAY,balances_x_yield,100% balances x +0bp,100%,+0bp,2027_operating_margin_pct,43.51649575,43.51649575,0
+TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2027_revenue_m,5866.27664581,5866.27664581,0
+TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2027_operating_income_m,2552.79802732,2552.79802732,0
+TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2027_adjusted_ebitda_m,3025.79802732,3025.79802732,0
+TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+TWO_WAY,trading_activity_x_opex,100% x 100%,100%,100%,2027_operating_margin_pct,43.51649575,43.51649575,0
+TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2027_revenue_m,6003.46459375,5866.27664581,137.18794794
+TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2027_operating_income_m,2689.98597527,2552.79802732,137.18794794
+TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2027_adjusted_ebitda_m,3162.98597527,3025.79802732,137.18794794
+TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2029Q2_annualized_revenue_m,6920.51375375,6772.89766787,147.61608588
+TWO_WAY,options_activity_x_price,100% x 110%,100%,110%,2027_operating_margin_pct,44.80722645,43.51649575,1.2907307
+TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2027_revenue_m,5910.00607655,5866.27664581,43.72943074
+TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2027_operating_income_m,2596.52745806,2552.79802732,43.72943074
+TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2027_adjusted_ebitda_m,3069.52745806,3025.79802732,43.72943074
+TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2029Q2_annualized_revenue_m,6819.95112628,6772.89766787,47.05345841
+TWO_WAY,crypto_activity_x_bps,100% x 110%,100%,110%,2027_operating_margin_pct,43.93442958,43.51649575,0.41793383
+TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2027_revenue_m,6315.71049523,5866.27664581,449.43384941
+TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2027_operating_income_m,3002.23187674,2552.79802732,449.43384941
+TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2027_adjusted_ebitda_m,3475.23187674,3025.79802732,449.43384941
+TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2029Q2_annualized_revenue_m,7405.01103443,6772.89766787,632.11336656
+TWO_WAY,balances_x_yield,100% balances x +50bp,100%,+50bp,2027_operating_margin_pct,47.53593248,43.51649575,4.01943673
+TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2027_revenue_m,5866.27664581,5866.27664581,0
+TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2027_operating_income_m,2307.39802732,2552.79802732,-245.4
+TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2027_adjusted_ebitda_m,2780.39802732,3025.79802732,-245.4
+TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2029Q2_annualized_revenue_m,6772.89766787,6772.89766787,0
+TWO_WAY,trading_activity_x_opex,100% x 110%,100%,110%,2027_operating_margin_pct,39.3332631,43.51649575,-4.18323265
+TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2027_revenue_m,5976.02700417,5866.27664581,109.75035835
+TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2027_operating_income_m,2652.63652337,2552.79802732,99.83849605
+TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2027_adjusted_ebitda_m,3125.63652337,3025.79802732,99.83849605
+TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2029Q2_annualized_revenue_m,6890.99053657,6772.89766787,118.0928687
+TWO_WAY,options_activity_x_price,120% x 90%,120%,90%,2027_operating_margin_pct,44.38796079,43.51649575,0.87146504
+TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2027_revenue_m,5901.2601904,5866.27664581,34.98354459
+TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2027_operating_income_m,2582.3591225,2552.79802732,29.56109518
+TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2027_adjusted_ebitda_m,3055.3591225,3025.79802732,29.56109518
+TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2029Q2_annualized_revenue_m,6810.5404346,6772.89766787,37.64276673
+TWO_WAY,crypto_activity_x_bps,120% x 90%,120%,90%,2027_operating_margin_pct,43.75945204,43.51649575,0.24295628
+TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2027_revenue_m,5751.20568945,5866.27664581,-115.07095636
+TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2027_operating_income_m,2437.72707096,2552.79802732,-115.07095636
+TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2027_adjusted_ebitda_m,2910.72707096,3025.79802732,-115.07095636
+TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2029Q2_annualized_revenue_m,6536.12899382,6772.89766787,-236.76867405
+TWO_WAY,balances_x_yield,120% balances x -50bp,120%,-50bp,2027_operating_margin_pct,42.38636562,43.51649575,-1.13013013
+TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2027_revenue_m,6323.17146293,5866.27664581,456.89481712
+TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2027_operating_income_m,3233.93501269,2552.79802732,681.13698537
+TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2027_adjusted_ebitda_m,3706.93501269,3025.79802732,681.13698537
+TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2029Q2_annualized_revenue_m,7264.52266535,6772.89766787,491.62499747
+TWO_WAY,trading_activity_x_opex,120% x 90%,120%,90%,2027_operating_margin_pct,51.14419294,43.51649575,7.62769719
+TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2027_revenue_m,6140.6525417,5866.27664581,274.37589588
+TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2027_operating_income_m,2817.2620609,2552.79802732,264.46403358
+TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2027_adjusted_ebitda_m,3290.2620609,3025.79802732,264.46403358
+TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2029Q2_annualized_revenue_m,7068.12983963,6772.89766787,295.23217175
+TWO_WAY,options_activity_x_price,120% x 100%,120%,100%,2027_operating_margin_pct,45.87887104,43.51649575,2.36237529
+TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2027_revenue_m,5953.73550729,5866.27664581,87.45886147
+TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2027_operating_income_m,2634.83443939,2552.79802732,82.03641206
+TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2027_adjusted_ebitda_m,3107.83443939,3025.79802732,82.03641206
+TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2029Q2_annualized_revenue_m,6867.00458469,6772.89766787,94.10691682
+TWO_WAY,crypto_activity_x_bps,120% x 100%,120%,100%,2027_operating_margin_pct,44.25514765,43.51649575,0.7386519
+TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2027_revenue_m,6290.52630874,5866.27664581,424.24966293
+TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2027_operating_income_m,2977.04769026,2552.79802732,424.24966293
+TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2027_adjusted_ebitda_m,3450.04769026,3025.79802732,424.24966293
+TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2029Q2_annualized_revenue_m,7294.66503369,6772.89766787,521.76736582
+TWO_WAY,balances_x_yield,120% balances x +0bp,120%,+0bp,2027_operating_margin_pct,47.32589205,43.51649575,3.8093963
+TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2027_revenue_m,6323.17146293,5866.27664581,456.89481712
+TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2027_operating_income_m,2988.53501269,2552.79802732,435.73698537
+TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2027_adjusted_ebitda_m,3461.53501269,3025.79802732,435.73698537
+TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2029Q2_annualized_revenue_m,7264.52266535,6772.89766787,491.62499747
+TWO_WAY,trading_activity_x_opex,120% x 100%,120%,100%,2027_operating_margin_pct,47.26322906,43.51649575,3.74673331
+TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2027_revenue_m,6305.27807923,5866.27664581,439.00143341
+TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2027_operating_income_m,2981.88759843,2552.79802732,429.08957111
+TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2027_adjusted_ebitda_m,3454.88759843,3025.79802732,429.08957111
+TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2029Q2_annualized_revenue_m,7245.26914268,6772.89766787,472.37147481
+TWO_WAY,options_activity_x_price,120% x 110%,120%,110%,2027_operating_margin_pct,47.29192846,43.51649575,3.77543271
+TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2027_revenue_m,6006.21082417,5866.27664581,139.93417836
+TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2027_operating_income_m,2687.30975627,2552.79802732,134.51172895
+TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2027_adjusted_ebitda_m,3160.30975627,3025.79802732,134.51172895
+TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2029Q2_annualized_revenue_m,6923.46873479,6772.89766787,150.57106691
+TWO_WAY,crypto_activity_x_bps,120% x 110%,120%,110%,2027_operating_margin_pct,44.74218163,43.51649575,1.22568588
+TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2027_revenue_m,6829.84692804,5866.27664581,963.57028223
+TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2027_operating_income_m,3516.36830955,2552.79802732,963.57028223
+TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2027_adjusted_ebitda_m,3989.36830955,3025.79802732,963.57028223
+TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2029Q2_annualized_revenue_m,8053.20107356,6772.89766787,1280.30340568
+TWO_WAY,balances_x_yield,120% balances x +50bp,120%,+50bp,2027_operating_margin_pct,51.48531653,43.51649575,7.96882078
+TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2027_revenue_m,6323.17146293,5866.27664581,456.89481712
+TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2027_operating_income_m,2743.13501269,2552.79802732,190.33698537
+TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2027_adjusted_ebitda_m,3216.13501269,3025.79802732,190.33698537
+TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2029Q2_annualized_revenue_m,7264.52266535,6772.89766787,491.62499747
+TWO_WAY,trading_activity_x_opex,120% x 110%,120%,110%,2027_operating_margin_pct,43.38226519,43.51649575,-0.13423056

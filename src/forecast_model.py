@@ -219,7 +219,9 @@ def build_assumptions(history):
             add(sc,period,'credit_balance_growth_pct',credit_growth,'fraction')
             add(sc,period,'interest_remainder_m',{'Base':2.,'Upside':2.,'Downside':-10.}[sc],'USD millions',
                 note='Low-confidence securities lending, debt financing and other net line')
-            for name, pass_through in [('margin',.85),('cash_deposit',.30),('cash_sweep',.30),('credit_card',0.)]:
+            # The company excludes Cash Sweep from its short-term policy-rate
+            # sensitivity because it can manage the spread paid to customers.
+            for name, pass_through in [('margin',.85),('cash_deposit',.30),('cash_sweep',0.),('credit_card',0.)]:
                 add(sc,period,f'{name}_rate_pass_through',pass_through,'fraction',
                     reference='2025Q2/2026Q2 matched balance/yield disclosures; cash-sweep definition break',
                     note='Analyst rate sensitivity; not a fitted causal coefficient')
@@ -243,6 +245,9 @@ def build_assumptions(history):
                 reference='2024–2025 operations expense grew 16% amid customer/account growth',
                 note='Semi-variable analyst cost split, not a measured elasticity')
             add(sc,period,'marketing_base_m',129.,'USD millions',reference='Q2 $104m; +$25m H2 growth investment allowance')
+            add(sc,period,'marketing_reference_additions_m',.3,'millions',
+                reference='2025Q3–2026Q1 comparable net-addition median',
+                note='Explicit denominator for the modeled marketing response')
             add(sc,period,'marketing_additions_variable_share',.2,'fraction',
                 reference='2024–2025 marketing expense grew 47%; customer acquisition mix undisclosed',
                 note='Management-controlled spend; deliberately flexes less than revenue')
@@ -388,7 +393,7 @@ def project(history, assumptions, scenario, shocks=None):
                                             a(p,'operations_customer_variable_share')*customers/28.4)
         provision=credit_avg*1000*a(p,'credit_provision_pct')
         marketing=a(p,'marketing_base_m')*((1-a(p,'marketing_additions_variable_share'))+
-                                           a(p,'marketing_additions_variable_share')*net_adds/.3)
+                                           a(p,'marketing_additions_variable_share')*net_adds/a(p,'marketing_reference_additions_m'))
         general=a(p,'general_base_m')
         expense=brokerage+tech+operations+provision+marketing+general
         operating_income=revenue-expense

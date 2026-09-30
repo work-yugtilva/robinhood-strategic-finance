@@ -1,0 +1,2 @@
+variable,value,period,classification,source_name,source_url,date_retrieved,calculation,notes
+2026Q2_100bp_company_rate_sensitivity_m,350,2026Q2,REPORTED,Robinhood 2026 Q2 10-Q Item 3,https://www.sec.gov/Archives/edgar/data/1783879/000178387926000114/hood-20260630.htm,2026-09-29,"Company hypothetical 100 bp change; period-end net exposed balances, following 12 months","Cash Sweep excluded; pre-tax revenue, net income and cash flow effect"

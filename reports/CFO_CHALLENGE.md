@@ -1,0 +1,9 @@
+# CFO challenge
+
+1. **What could reverse the recommendation?** If higher funded-customer additions generate materially more long-term balances or cross-product use than the consolidated model captures, the current near-term finding that additions alone do not recover a crypto shock would understate customer investment value. Cohort retention and product uptake are unavailable.
+2. **Weakest forecast relationship:** Post-Bitstamp/WonderFi blended crypto bps combine App and acquired exchange volumes with undisclosed channel revenue. A change in mix could invalidate the $613m broad monetization stress as a description of product pricing. [Structural breaks](STRUCTURAL_BREAKS.md).
+3. **Most assumption-dependent result:** The 43.5% 2027 Base margin depends on analyst technology, marketing, G&A and credit-provision paths. 2026 H2 costs were calibrated with company adjusted expense outlook in view. It is not an independent company plan. [Margin audit](OPERATING_MARGIN_AUDIT.md).
+4. **Largely outside management control:** Trading demand and policy rates. Management can influence experience, product mix, balance capture and spread sharing, but not guarantee trading units or rates. The policy -100 bp model effect is -$265m; the all-yield stress is a much broader hypothetical. [Rate audit](INTEREST_SENSITIVITY_AUDIT.md).
+5. **Internal data needed:** Product-active customers, cohort deposits and retention, channel revenue and contribution margins, rate repricing contracts, credit vintages, staffing commitments, and marketing acquisition channel economics.
+
+**Revision from challenge:** The final priorities emphasize monitoring and conditional resource gates. They do not assert that customer scale has low lifetime value or that higher balance-based revenue is automatically more stable. Management should re-underwrite the paths with internal cohort and product economics before allocating capital.

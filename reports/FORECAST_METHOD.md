@@ -30,7 +30,7 @@ The [Q2 2026 filing](https://www.sec.gov/Archives/edgar/data/1783879/00017838792
 | Options dollars/contract | $0.442–$0.476 in the same three quarters | $0.444; recent median |
 | Equities notional/customer | $23.5–$34.3b per million average funded customers, same three quarters | $30.3b per million; median including Q3 partial pace |
 | Blended crypto bps | 20.4–26.9 bps in 2025 Q4–2026 Q2 | 24.8 bps; post-Bitstamp median, with WonderFi uncertainty |
-| Interest-asset realized yields | Q2 2026 margin 4.52%, cash/deposit 2.02%, sweep 0.59%, credit 11.88% | Each starts from its company-specific yield; explicit pass-through to external rate path |
+| Interest-asset realized yields | Q2 2026 margin 4.52%, cash/deposit 2.02%, sweep 0.59%, credit 11.88% | Each starts from its company-specific yield; assumed policy pass-through is zero for Cash Sweep and credit card |
 | Gold subscribers | 4.2m at 2025 Q4; 4.3m Q1 and 4.8m Q2 2026 | 0.2m net additions/quarter; below Q2's 0.5m increase |
 | Asset-value change | Historical residual includes acquisitions and definition changes | 0% quarterly Base; neutral rather than invented market return |
 

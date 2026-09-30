@@ -126,7 +126,7 @@ The [Q2 2026 filing]({Q2}) supplies the interest component and revenue baselines
 | Options dollars/contract | $0.442–$0.476 in the same three quarters | ${opt_price:.3f}; recent median |
 | Equities notional/customer | $23.5–$34.3b per million average funded customers, same three quarters | ${equity_activity:.1f}b per million; median including Q3 partial pace |
 | Blended crypto bps | 20.4–26.9 bps in 2025 Q4–2026 Q2 | {crypto_bps:.1f} bps; post-Bitstamp median, with WonderFi uncertainty |
-| Interest-asset realized yields | Q2 2026 margin 4.52%, cash/deposit 2.02%, sweep 0.59%, credit 11.88% | Each starts from its company-specific yield; explicit pass-through to external rate path |
+| Interest-asset realized yields | Q2 2026 margin 4.52%, cash/deposit 2.02%, sweep 0.59%, credit 11.88% | Each starts from its company-specific yield; assumed policy pass-through is zero for Cash Sweep and credit card |
 | Gold subscribers | 4.2m at 2025 Q4; 4.3m Q1 and 4.8m Q2 2026 | 0.2m net additions/quarter; below Q2's 0.5m increase |
 | Asset-value change | Historical residual includes acquisitions and definition changes | 0% quarterly Base; neutral rather than invented market return |
 
@@ -196,7 +196,7 @@ The modeled 2026 Adjusted Operating Expenses and SBC comparison is {b(full_adj)}
 
 {profit_lines}
 
-The top-three list counts interest exposure once: direct realized-yield and policy-rate pass-through shocks are two views of overlapping risk. A -100 bp **external policy-rate** shock with the model's company-specific pass-through changes 2027 revenue by {m(policy_shock['delta_m'])}, versus {m(interest_shock['delta_m'])} for a direct +50 bp **realized-yield** shock.
+The top-three list includes the broad **all-component realized-yield** stress, which changes Cash Sweep and credit-card net yield and must not be read as policy-rate exposure. A -100 bp **external policy-rate** shock with the model's company-specific pass-through changes 2027 revenue by {m(policy_shock['delta_m'])}, versus {m(interest_shock['delta_m'])} for a direct +50 bp all-component yield stress. The [Phase 5 audit](INTEREST_SENSITIVITY_AUDIT.md) reconciles the scopes.
 
 **INTERPRETATION:** The least stable historical relationship is blended crypto volume-to-revenue monetization across Bitstamp and WonderFi. Interest yield/pass-through has the greatest modeled **dollar** uncertainty, while its company-specific pass-through is only partly observed. Event contracts have the shortest matched unit/revenue history. Base net customer additions ({normal_adds:.1f}m) and deposits (${normal_deposits:.1f}b) match recent comparable medians; sustained options activity ({opts:.1f} contracts/customer) is modestly above the 2025 Q4–2026 Q2 median, while Q3's July/August pace is stronger still. See [risk register](FORECAST_RISKS.md) and [sensitivity results](../data/forecast/sensitivity_results.csv). These observations do not select a management strategy.
 '''
@@ -215,7 +215,7 @@ Sensitivities rerun the Base operating model one input at a time or on compact 3
 
 The options grid crosses aggregate contracts/customer with dollars/contract. The crypto grid crosses App-plus-Bitstamp volume/customer with one blended realized bps assumption. The net-interest grid crosses modeled earning balances with company-specific realized yields. The profitability grid crosses trading activity with the explicit technology, marketing and G&A spend bases. A grid's revenue change is an engine result, never a total-revenue growth input.
 
-The `realized_yields` shock moves all four company yields directly; `policy_rate_with_pass_through` moves the external rate and applies each disclosed analyst pass-through assumption. These are distinct questions. The negative direct-yield stress is asymmetric at -100 bp because component yields are floored at zero, especially the low-yield cash-sweep component. Neither stress is a probability estimate.
+The `realized_yields` shock moves all four company yields directly; `policy_rate_with_pass_through` moves the external rate using explicit **analyst-assumed** pass-through, with zero for Cash Sweep and credit card. These are distinct questions. The negative direct-yield stress is asymmetric at -100 bp because component yields are floored at zero, especially the low-yield cash-sweep component. Neither stress is a probability estimate. The [interest audit](INTEREST_SENSITIVITY_AUDIT.md) compares scope with Robinhood's disclosure.
 
 | Qualitative impact | Drivers under the defined 2027 shocks | Reading |
 |---|---|---|
@@ -235,7 +235,7 @@ These are relative analyst labels for these shocks, not numerical scores or prob
 | Product active-user counts unavailable | Per-funded-customer trading intensity | Scale attribution can overstate user breadth | Label aggregate proxy and vary activity independently of customer adds |
 | Bitstamp/WonderFi integration and undisclosed channel revenue | Crypto take rate and volume | Blended bps may misstate either channel | Post-acquisition calibration and wide volume/monetization shocks |
 | Short event-contract revenue/unit history | Event revenue | Mature run-rate extrapolation can overstate durability | Hold per-customer activity near partial-quarter pace; scenario grid and explicit flag |
-| Cash-sweep reclassification | Cash and sweep interest | Historical yield and balance shares may not persist | Separate balances/yields; August split and pass-through sensitivities |
+| Cash-sweep reclassification | Cash and sweep interest | Historical yield and balance shares may not persist | Separate balances/yields; August split; zero modeled policy-rate pass-through for Cash Sweep |
 | Policy-to-company yield pass-through unobservable | Net interest revenue | Rate shocks may overstate or understate realized yield change | Disclose component pass-through and stress realized yields directly |
 | Securities lending/financing remainder | Net interest revenue | Flat remainder misses activity or borrowing costs | Separate $2m Base remainder and downside stress |
 | Credit exposure and provision proxy | Credit-loss expense | Provision may not scale with balances as assumed | Explicit exposure/provision inputs and downside provision rate |
